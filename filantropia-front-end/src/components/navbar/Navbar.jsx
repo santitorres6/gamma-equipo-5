@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.scss";
 
 export const Navbar = ({ items }) => {
@@ -7,7 +8,7 @@ export const Navbar = ({ items }) => {
       {items.map((elemento) => {
         return (
           <li key={elemento.id}>
-            <a href="#">{elemento.name}</a>
+            <Link to={elemento.href}>{elemento.name}</Link>
           </li>
         );
       })}

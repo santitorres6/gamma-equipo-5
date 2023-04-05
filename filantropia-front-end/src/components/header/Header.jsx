@@ -1,12 +1,13 @@
 import React from "react";
 import { Navbar } from "../Navbar/Navbar";
+import { HOME, TESTIMONIOS, DONACIONES } from "../../routes/paths";
 import "./Header.scss";
 
 const nav = [
   {
     id: "1",
     name: "¿Quienes somos?",
-    href: "#",
+    href: HOME,
   },
   {
     id: "2",
@@ -26,12 +27,12 @@ const nav = [
   {
     id: "5",
     name: "Testimonios",
-    href: "#",
+    href: TESTIMONIOS,
   },
   {
     id: "6",
     name: "Donaciones",
-    href: "#",
+    href: DONACIONES,
   },
   {
     id: "7",
@@ -52,7 +53,7 @@ export const Header = () => {
           title="Logo_Filantropia"
         />
       </div>
-      <Navbar items={nav}/>
+      <Navbar items={nav} />
     </header>
   );
 };
