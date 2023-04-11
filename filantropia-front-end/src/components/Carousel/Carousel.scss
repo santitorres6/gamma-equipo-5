@@ -1,0 +1,45 @@
+@import '/src/styles/index';
+
+.slick-arrow {
+  width: 5rem;
+  height: 5rem;
+  z-index: $layer-second;
+  color:rgba(238, 229, 233,0.6);
+}
+
+.slick-arrow:hover{
+  color: rgba(238, 229, 233, 1);
+}
+
+.slick-next{
+  right: 25px;
+}
+
+.slick-prev{
+  left: 25px;
+}
+.slick-prev::before, .slick-next::before {
+  font-size: 5rem;
+}
+
+.slick-dots{
+  bottom: 25px;
+}
+
+.slick-dots li{
+  width: 30px;
+}
+
+.slick-dots li button::before{
+  width: 30px;
+  height: 10px;
+  content:"";
+  border-radius: 5px;
+  background-color: rgba(238, 229, 233,0.6);
+}
+
+.slick-dots li.slick-active button:before{
+  background-color: rgba(238, 229, 233, 1);
+}
+
+

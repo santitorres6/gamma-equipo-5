@@ -1,4 +1,4 @@
-.Header{
+.header{
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -7,11 +7,14 @@
   background-color: #000000;
   color:white;
 
-  &__imgContainer{
+  &__Logo{
     width: 300px;
+    &-img {
+        object-fit: cover;
+      }
   }
-  
-  &__img{
-    object-fit: cover;
+
+  &__hamburgerMenu{
+    display:none;
   }
 }

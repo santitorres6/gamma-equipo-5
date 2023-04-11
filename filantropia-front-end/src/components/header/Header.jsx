@@ -1,59 +1,37 @@
-import React from "react";
+import React, { useContext } from "react";
+import { DataContext } from "../../utils/context/DataContext";
+import { Link} from "react-router-dom";
 import { Navbar } from "../Navbar/Navbar";
-import { HOME, TESTIMONIOS, DONACIONES } from "../../routes/paths";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "./Header.scss";
 
-const nav = [
-  {
-    id: "1",
-    name: "¿Quienes somos?",
-    href: HOME,
-  },
-  {
-    id: "2",
-    name: "Causas",
-    href: "#",
-  },
-  {
-    id: "3",
-    name: "Iniciativas",
-    href: "#",
-  },
-  {
-    id: "4",
-    name: "¿Cómo donar?",
-    href: "#",
-  },
-  {
-    id: "5",
-    name: "Testimonios",
-    href: TESTIMONIOS,
-  },
-  {
-    id: "6",
-    name: "Donaciones",
-    href: DONACIONES,
-  },
-  {
-    id: "7",
-    name: "Más",
-    href: "#",
-  },
-  ,
-];
-
 export const Header = () => {
+  const { homePage } = useContext(DataContext);
+  const { header } = homePage;
+  const { logo, navbar } = header;
   return (
-    <header className="Header">
-      <div className="Header__imgContainer">
-        <img
-          className="Header__img"
-          src="/src/assets/images/Logo_Filantropia.png"
-          alt="Logo_Filantropia"
-          title="Logo_Filantropia"
-        />
-      </div>
-      <Navbar items={nav} />
+    <header className="header">
+      <Logo {...logo} />
+      <Navbar items={navbar} />
+      <HamburgerMenu />
     </header>
+  );
+};
+
+const Logo = (props) => {
+  const { title, img, href } = props;
+  return (
+    <Link to={href} className="header__Logo">
+      <img className="header__Logo-img" src={img} alt={title} title={title} />
+    </Link>
+  );
+};
+
+const HamburgerMenu = (props) => {
+  return (
+    <div className="header__hamburgerMenu">
+      <FontAwesomeIcon icon={faBars} />
+    </div>
   );
 };
