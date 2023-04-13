@@ -7,7 +7,7 @@ export const Noticias = (props) => {
   const { noticias } = props;
   const { cards } = noticias;
   return (
-    <ListCard>
+    <ListCard name={noticias.title}>
       {cards.map((card) => {
         return <CardNoticias key={card.id} {...card} />;
       })}
