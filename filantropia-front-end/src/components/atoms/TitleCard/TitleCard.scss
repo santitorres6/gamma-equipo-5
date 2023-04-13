@@ -1,0 +1,9 @@
+@import "/src/styles/index";
+
+.titleCard{
+  font-size: $font-size-card-title;
+  font-weight: $font-weight-card-title;
+  text-align: center;
+  margin: 2rem 0;
+  padding: 0 5%;
+}

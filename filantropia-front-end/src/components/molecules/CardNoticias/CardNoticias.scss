@@ -1,0 +1,23 @@
+@import "/src/styles";
+
+.informationContainer{
+  // background-color: red;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+
+  &__date{
+    font-size: $font-size-card-date;
+    font-weight: $font-weight-card-date;
+  }
+  &__category{
+    background-color: $color-background-secondary;
+    font-size: $font-size-card-category;
+    font-weight: $font-weight-card-category;
+    color: $color-tertiary;
+    padding:0.5rem 1rem;
+    border-radius: 1rem;
+  }
+}

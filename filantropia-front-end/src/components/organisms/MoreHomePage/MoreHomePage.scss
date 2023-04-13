@@ -1,0 +1,11 @@
+.moreSection{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+section.moreSection div.listCards{
+  grid-template-columns: repeat(4, 1fr);
+}

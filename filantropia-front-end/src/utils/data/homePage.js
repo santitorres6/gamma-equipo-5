@@ -342,320 +342,388 @@ export const homePage = {
   },
   more: {
     title: "Más",
-    collapse: [
-      "Informes de gestión",
-      "Noticias",
-      "Preguntas frecuentes",
-      "Contacto",
-    ],
-    informesDeGestion: [
-      {
-        id: 1,
-        img: {
-          title: "Informe de gestión 2019",
-          src: "/src/assets/images/informe_gestion_2019.jpg",
-        },
-        title: "Informe de gestión 2019",
-        button: {
-          title: "Ver más",
-          href: "https://www.eafit.edu.co/institucional/centro-filantropia/Paginas/informe-de-gestion-filantropia2019.aspx",
-        },
-      },
-      {
-        id: 2,
-        img: {
-          title: "Informe de gestión 2020",
-          src: "/src/assets/images/informe_gestion_2020.jpg",
-        },
-        title: "Informe de gestión 2020",
-        button: {
-          title: "Ver más",
-          href: "https://www.eafit.edu.co/institucional/centro-filantropia/Paginas/informe-de-gestion-filantropia2020.aspx",
-        },
-      },
-      {
-        id: 1,
-        img: {
-          title: "Informe de gestión 2021",
-          src: "/src/assets/images/informe_gestion_2021.jpg",
-        },
-        title: "Informe de gestión 2021",
-        button: {
-          title: "Ver más",
-          href: "https://www.eafit.edu.co/institucional/centro-filantropia/Paginas/informegestion2021.aspx",
-        },
-      },
-      {
-        id: 2,
-        img: {
-          title: "Informe de gestión 2022",
-          src: "/src/assets/images/informe_gestion_2022.jpg",
-        },
-        title: "Informe de gestión 2022",
-        button: {
-          title: "Ver más",
-          href: "https://www.eafit.edu.co/institucional/centro-filantropia/Paginas/informe-de-gestion-2022.aspx",
-        },
-      },
-    ],
-    noticias: [
-      {
-        id: 1,
-        img: {
-          title: "noticia_1",
-          src: "/src/assets/images/noticia_1.jpeg",
-        },
-        date: "Nov 23,2020",
-        category: "INSTITUCIONAL",
-        paragraph:
-          "El Centro de Filantropía sigue sumando esfuerzos para apoyar de manera integral a todos los eafitenses",
-        button: {
-          title: "Ver más",
-          href: "",
-        },
-      },
-      {
-        id: 2,
-        img: {
-          title: "noticia_2",
-          src: "/src/assets/images/noticia_2.jpeg",
-        },
-        date: "Sep 24,2020",
-        category: "INSTITUCIONAL",
-        paragraph: "¡Recuerda que la solidaridad empieza por casa!",
-        button: {
-          title: "Ver más",
-          href: "",
-        },
-      },
-      {
-        id: 3,
-        img: {
-          title: "noticia_3",
-          src: "/src/assets/images/noticia_3.jpeg",
-        },
-        date: "Jul 3,2020",
-        category: "EAFITENSES",
-        paragraph:
-          "¡Eafitenses, 1127 estudiantes de la U fueron beneficiados por el Fondo de Solidaridad 60 años EAFIT!",
-        button: {
-          title: "Ver más",
-          href: "",
-        },
-      },
-      {
-        id: 4,
-        img: {
-          title: "noticia_4",
-          src: "/src/assets/images/noticia_4.jpeg",
-        },
-        date: "May 21,2020",
-        category: "INSTITUCIONAL",
-        paragraph: '"La solidaridad, eje transversal entre los eafitenses"',
-        button: {
-          title: "Ver más",
-          href: "",
-        },
-      },
-      {
-        id: 5,
-        img: {
-          title: "noticia_5",
-          src: "/src/assets/images/noticia_5.jpeg",
-        },
-        date: "May 19,2020",
-        category: "PROYECCIÓN",
-        paragraph:
-          "EAFIT crea el Fondo de Solidaridad 60 años para apoyar la continuidad del aprendizaje de estudiantes con dificultades económicas",
-        button: {
-          title: "Ver más",
-          href: "",
-        },
-      },
-      {
-        id: 6,
-        img: {
-          title: "noticia_6",
-          src: "/src/assets/images/noticia_6.jpeg",
-        },
-        date: "Abr 13,2020",
-        category: "PROYECCIÓN",
-        paragraph:
-          "El Centro de Filantropía sigue sumando esfuerzos para apoyar de manera integral a todos los eafitenses",
-        button: {
-          title: "Ver más",
-          href: "",
-        },
-      },
-    ],
-    preguntasFrecuentes: [
-      {
-        id: 1,
-        title: "¿Cómo puedo hacer una donación?",
-        paragraph:
-          "Es el acto por el cual una persona natural o jurídica, denominada donante, transfiere a título gratuito una parte de sus bienes a otra que la acepta, denominado donatario.",
-        button: {
-          title: "Ver más",
-          href: "",
-        },
-      },
-      {
-        id: 2,
-        title: "¿Cómo puedo hacer una donación?",
-        paragraph:
-          "​Desde Filantropía EAFIT contamos con diferentes canales para facilitar el proceso de donación. Para resolver cualquier inquietud comunícate con...",
-        button: {
-          title: "Ver más",
-          href: "",
-        },
-      },
-      {
-        id: 3,
-        title: "¿Quiénes pueden donar?",
-        paragraph:
-          "​Todas las personas interesadas en apoyar a la Universidad EAFIT, entre ellos estudiantes, egresados, empleados, aliados, y personas jurídicas como organizaciones y fundaciones.",
-        button: {
-          title: "Ver más",
-          href: "",
-        },
-      },
-      {
-        id: 4,
-        title: "¿Cómo puedo hacer donaciones en especie?",
-        paragraph:
-          "​La Universidad EAFIT también recibe donaciones en especie. Entre estas se cuentan equipos para laboratorios, equipos deportivos, computadores, libros...",
-        button: {
-          title: "Ver más",
-          href: "",
-        },
-      },
-      {
-        id: 5,
-        title: "¿Cómo obtengo el certificado de donación?",
-        paragraph:
-          "Filantropía EAFIT hará llegar el certificado de donación durante los tres primeros meses del año siguiente al año en que realizaste la donación a la dirección registrada por el donante...",
-        button: {
-          title: "Ver más",
-          href: "",
-        },
-      },
-      {
-        id: 6,
-        title: "¿Qué beneficios tributarios obtengo al realizar una donación?",
-        paragraph:
-          "​La Universidad EAFIT, en su calidad de donataria y en cumplimiento de la ley fiscal, otorga el certificado de donación independientemente de su monto...",
-        button: {
-          title: "Ver más",
-          href: "",
-        },
-      },
-      {
-        id: 7,
-        title: "¿Cómo y cuándo puedo cancelar la recurrencia de una donación?",
-        paragraph:
-          "​Se puede cancelar la recurrencia en el momento que el donante lo decida, solo debes enviar un correo electrónico a la dirección...",
-        button: {
-          title: "Ver más",
-          href: "",
-        },
-      },
-      {
-        id: 8,
-        title: "¿Qué es una donación recurrente?",
-        paragraph:
-          "Son donaciones que puedes programar para que se realicen de forma automática periódicamente.",
-        button: {
-          title: "Ver más",
-          href: "",
-        },
-      },
-      {
-        id: 9,
-        title: "¿Cuándo una donación requiere insinuación notarial?",
-        paragraph:
-          "Todas las donaciones en dinero o en especie que superen los 50SMLMV requieren insinuación notarial. Para saber más...",
-        button: {
-          title: "Ver más",
-          href: "",
-        },
-      },
-    ],
-    contacto: {
-      title: "Escríbenos a cfilantropia@eafit.edu.co",
-      cards: [
-        {
-          id: 1,
-          img: {
-            title: "Maria Clara Ceballos Arango",
-            src: "/src/assets/images/MariaClaraCeballos.png",
+    accordion: {
+      informesDeGestion: {
+        title: "Informes de gestión",
+        cards: [
+          {
+            id: 1,
+            img: {
+              title: "Informe de gestión 2019",
+              src: "/src/assets/images/informe_gestion_2019.jpg",
+            },
+            title: "Informe de gestión 2019",
+            button: {
+              title: "Ver más",
+              href: "https://www.eafit.edu.co/institucional/centro-filantropia/Paginas/informe-de-gestion-filantropia2019.aspx",
+            },
           },
-          name: "Maria Clara Ceballos Arango",
-          ocupation: "Jefa de Filantroía Eafit",
-          tel: "Teléfono: (57) 604 261 9500 - extensión 8857​​​",
-          email_first: "mceball4@eafit.edu.co",
-          email_secondary: "cfil​antropia@eafit.edu.co",
-        },
-        {
-          id: 2,
-          img: {
-            title: "María Cristina Montoya Vélez",
-            src: "/src/assets/images/MariaCristinaMontoya.png",
+          {
+            id: 2,
+            img: {
+              title: "Informe de gestión 2020",
+              src: "/src/assets/images/informe_gestion_2020.jpg",
+            },
+            title: "Informe de gestión 2020",
+            button: {
+              title: "Ver más",
+              href: "https://www.eafit.edu.co/institucional/centro-filantropia/Paginas/informe-de-gestion-filantropia2020.aspx",
+            },
           },
-          name: "María Cristina Montoya Vélez",
-          ocupation: "Coordinadora Administrativa",
-          tel: "",
-          email_first: "mmonto41@eafit.edu.co​",
-          email_secondary: "cfil​antropia@eafit.edu.co",
-        },
-        {
-          id: 3,
-          img: {
-            title: "Luz Adriana Yepes Arias",
-            src: "/src/assets/images/LuzAdrianaYepes.png",
+          {
+            id: 1,
+            img: {
+              title: "Informe de gestión 2021",
+              src: "/src/assets/images/informe_gestion_2021.jpg",
+            },
+            title: "Informe de gestión 2021",
+            button: {
+              title: "Ver más",
+              href: "https://www.eafit.edu.co/institucional/centro-filantropia/Paginas/informegestion2021.aspx",
+            },
           },
-          name: "Luz Adriana Yepes Arias",
-          ocupation: "Analisat de información",
-          tel: "",
-          email_first: "layepesa@eafit.edu.co​",
-          email_secondary: "",
-        },
-        {
-          id: 4,
-          img: {
-            title: "Lizyenny Osorio Álvarez",
-            src: "/src/assets/images/LizyennyOsorio.png",
+          {
+            id: 2,
+            img: {
+              title: "Informe de gestión 2022",
+              src: "/src/assets/images/informe_gestion_2022.jpg",
+            },
+            title: "Informe de gestión 2022",
+            button: {
+              title: "Ver más",
+              href: "https://www.eafit.edu.co/institucional/centro-filantropia/Paginas/informe-de-gestion-2022.aspx",
+            },
           },
-          name: "Lizyenny Osorio Álvarez",
-          ocupation: "Analista de información",
-          tel: "​",
-          email_first: "losorioa@eafit.edu.co",
-          email_secondary: "",
-        },
-        {
-          id: 5,
-          img: {
-            title: "Marcela Builes Toro",
-            src: "/src/assets/images/MarcelaBuilesToro.png",
+        ],
+      },
+      noticias: {
+        title: "Noticias",
+        cards: [
+          {
+            id: 1,
+            img: {
+              title: "noticia_1",
+              src: "/src/assets/images/noticia_1.jpeg",
+            },
+            date: "Nov 23,2020",
+            category: "INSTITUCIONAL",
+            paragraph:
+              "El Centro de Filantropía sigue sumando esfuerzos para apoyar de manera integral a todos los eafitenses",
+            button: {
+              title: "Ver más",
+              href: "https://www.eafit.edu.co/noticias/egresados/2020/centro-filantropia-sumando-esfuerzos-para-apoyar-eafitenses",
+            },
           },
-          name: "Marcela Builes Toro",
-          ocupation: "Analista de comunicaciones",
-          tel: "",
-          email_first: "mbuiles10@eafit.edu.co​",
-          email_secondary: "cfil​antropia@eafit.edu.co",
-        },
-        {
-          id: 6,
-          img: {
-            title: "Nury Sepúlveda Muñoz",
-            src: "/src/assets/images/NuryAndreaSepulveda.png",
+          {
+            id: 2,
+            img: {
+              title: "noticia_2",
+              src: "/src/assets/images/noticia_2.jpeg",
+            },
+            date: "Sep 24,2020",
+            category: "INSTITUCIONAL",
+            paragraph: "¡Recuerda que la solidaridad empieza por casa!",
+            button: {
+              title: "Ver más",
+              href: "https://www.eafit.edu.co/noticias/estudiantes/2020/recuerda-solidaridad-empieza-casa",
+            },
           },
-          name: "Nury Sepúlveda Muñoz",
-          ocupation: "Auxiliar administrativa",
-          tel: "Teléfono: (57) 604 261 9500 - extensión 9297​​​",
-          email_first: "nsepulv2@eafit.edu.co",
-          email_secondary: "",
-        },
-      ],
+          {
+            id: 3,
+            img: {
+              title: "noticia_3",
+              src: "/src/assets/images/noticia_3.jpeg",
+            },
+            date: "Jul 3,2020",
+            category: "EAFITENSES",
+            paragraph:
+              "¡Eafitenses, 1127 estudiantes de la U fueron beneficiados por el Fondo de Solidaridad 60 años EAFIT!",
+            button: {
+              title: "Ver más",
+              href: "https://www.eafit.edu.co/noticias/estudiantes/2020/eafitenses-1127-estudiantes-beneficiados-por-fondo-solidaridad-60-anios-eafit",
+            },
+          },
+          {
+            id: 4,
+            img: {
+              title: "noticia_4",
+              src: "/src/assets/images/noticia_4.jpeg",
+            },
+            date: "May 21,2020",
+            category: "INSTITUCIONAL",
+            paragraph: '"La solidaridad, eje transversal entre los eafitenses"',
+            button: {
+              title: "Ver más",
+              href: "https://www.eafit.edu.co/noticias/estudiantes/2020/la-solidaridad-eje-transversal-entre-los-eafitenses",
+            },
+          },
+          {
+            id: 5,
+            img: {
+              title: "noticia_5",
+              src: "/src/assets/images/noticia_5.jpeg",
+            },
+            date: "May 19,2020",
+            category: "PROYECCIÓN",
+            paragraph:
+              "EAFIT crea el Fondo de Solidaridad 60 años para apoyar la continuidad del aprendizaje de estudiantes con dificultades económicas",
+            button: {
+              title: "Ver más",
+              href: "https://www.eafit.edu.co/noticias/agenciadenoticias/2020/EAFIT-crea-el-Fondo-de-Solidaridad-60-anios-para-apoyar-la-continuidad-del-aprendizaje-de-estudiantes-con-dificultades-economicas",
+            },
+          },
+          {
+            id: 6,
+            img: {
+              title: "noticia_6",
+              src: "/src/assets/images/noticia_6.jpeg",
+            },
+            date: "Abr 13,2020",
+            category: "PROYECCIÓN",
+            paragraph:
+              "El Centro de Filantropía sigue sumando esfuerzos para apoyar de manera integral a todos los eafitenses",
+            button: {
+              title: "Ver más",
+              href: "https://www.eafit.edu.co/noticias/egresados/2020/egresados-eafitenses-la-solidaridad-empieza-por-casa",
+            },
+          },
+          {
+            id: 7,
+            img: {
+              title: "noticia_7",
+              src: "/src/assets/images/noticia_7.jpeg",
+            },
+            date: "Sep 26, 2019",
+            category: "ACADEMIA",
+            paragraph:
+              "Open Day, un espacio para conocer la oferta de posgrados de EAFIT",
+            button: {
+              title: "Ver más",
+              href: "https://www.eafit.edu.co/noticias/agenciadenoticias/2019/open-day-un-espacio-para-conocer-la-oferta-de-posgrados-de-eafit",
+            },
+          },
+          {
+            id: 8,
+            img: {
+              title: "noticia_8",
+              src: "/src/assets/images/noticia_8.jpeg",
+            },
+            date: "Jul 15, 2019",
+            category: "EGRESADOS",
+            paragraph:
+              "Estos jóvenes le darán una nueva dimensión al campo colombiano",
+            button: {
+              title: "Ver más",
+              href: "https://www.eafit.edu.co/noticias/egresados/2019/estos-jovenes-daran-nueva-dimension-al-campo-colombiano",
+            },
+          },
+          {
+            id: 9,
+            img: {
+              title: "noticia_9",
+              src: "/src/assets/images/noticia_9.jpeg",
+            },
+            date: "Feb 7, 2019",
+            category: "ACADEMIA",
+            paragraph:
+              "Un nuevo Centro para potenciar la transformación social desde la filantropía",
+            button: {
+              title: "Ver más",
+              href: "https://www.eafit.edu.co/noticias/egresados/2019/un-nuevo-centro-para-potenciar-la-transformacion-social-desde-la-filantropia",
+            },
+          },
+          {
+            id: 10,
+            img: {
+              title: "noticia_10",
+              src: "/src/assets/images/noticia_10.jpeg",
+            },
+            date: "Feb 6, 2019",
+            category: "ANÁLISIS ACADÉMICO",
+            paragraph:
+              "La filantropía es el motor de la humanidad: Juan Luis Mejía",
+            button: {
+              title: "Ver más",
+              href: "https://www.eafit.edu.co/noticias/agenciadenoticias/2019/la-filantropia-es-el-motor-de-la-humanidad-juan-luis-mejia",
+            },
+          },
+        ],
+      },
+      preguntasFrecuentes: {
+        title: "Preguntas frecuentes",
+        cards: [
+          {
+            id: 1,
+            title: "¿Cómo puedo hacer una donación?",
+            paragraph:
+              "Es el acto por el cual una persona natural o jurídica, denominada donante, transfiere a título gratuito una parte de sus bienes a otra que la acepta, denominado donatario.",
+            button: {
+              title: "Ver más",
+              href: "",
+            },
+          },
+          {
+            id: 2,
+            title: "¿Cómo puedo hacer una donación?",
+            paragraph:
+              "​Desde Filantropía EAFIT contamos con diferentes canales para facilitar el proceso de donación. Para resolver cualquier inquietud comunícate con...",
+            button: {
+              title: "Ver más",
+              href: "",
+            },
+          },
+          {
+            id: 3,
+            title: "¿Quiénes pueden donar?",
+            paragraph:
+              "​Todas las personas interesadas en apoyar a la Universidad EAFIT, entre ellos estudiantes, egresados, empleados, aliados, y personas jurídicas como organizaciones y fundaciones.",
+            button: {
+              title: "Ver más",
+              href: "",
+            },
+          },
+          {
+            id: 4,
+            title: "¿Cómo puedo hacer donaciones en especie?",
+            paragraph:
+              "​La Universidad EAFIT también recibe donaciones en especie. Entre estas se cuentan equipos para laboratorios, equipos deportivos, computadores, libros...",
+            button: {
+              title: "Ver más",
+              href: "",
+            },
+          },
+          {
+            id: 5,
+            title: "¿Cómo obtengo el certificado de donación?",
+            paragraph:
+              "Filantropía EAFIT hará llegar el certificado de donación durante los tres primeros meses del año siguiente al año en que realizaste la donación a la dirección registrada por el donante...",
+            button: {
+              title: "Ver más",
+              href: "",
+            },
+          },
+          {
+            id: 6,
+            title:
+              "¿Qué beneficios tributarios obtengo al realizar una donación?",
+            paragraph:
+              "​La Universidad EAFIT, en su calidad de donataria y en cumplimiento de la ley fiscal, otorga el certificado de donación independientemente de su monto...",
+            button: {
+              title: "Ver más",
+              href: "",
+            },
+          },
+          {
+            id: 7,
+            title:
+              "¿Cómo y cuándo puedo cancelar la recurrencia de una donación?",
+            paragraph:
+              "​Se puede cancelar la recurrencia en el momento que el donante lo decida, solo debes enviar un correo electrónico a la dirección...",
+            button: {
+              title: "Ver más",
+              href: "",
+            },
+          },
+          {
+            id: 9,
+            title: "¿Qué es una donación recurrente?",
+            paragraph:
+              "Son donaciones que puedes programar para que se realicen de forma automática periódicamente.",
+            button: {
+              title: "Ver más",
+              href: "",
+            },
+          },
+          {
+            id: 9,
+            title: "¿Cuándo una donación requiere insinuación notarial?",
+            paragraph:
+              "Todas las donaciones en dinero o en especie que superen los 50SMLMV requieren insinuación notarial. Para saber más...",
+            button: {
+              title: "Ver más",
+              href: "",
+            },
+          },
+        ],
+      },
+      contact: {
+        title: "Contacto",
+        subtitle: "Escríbenos a cfilantropia@eafit.edu.co",
+        cards: [
+          {
+            id: 1,
+            img: {
+              title: "Maria Clara Ceballos Arango",
+              src: "/src/assets/images/MariaClaraCeballos.png",
+            },
+            name: "Maria Clara Ceballos Arango",
+            ocupation: "Jefa de Filantroía Eafit",
+            tel: "Teléfono: (57) 604 261 9500 - extensión 8857​​​",
+            email_first: "mceball4@eafit.edu.co",
+            email_secondary: "cfil​antropia@eafit.edu.co",
+          },
+          {
+            id: 2,
+            img: {
+              title: "María Cristina Montoya Vélez",
+              src: "/src/assets/images/MariaCristinaMontoya.png",
+            },
+            name: "María Cristina Montoya Vélez",
+            ocupation: "Coordinadora Administrativa",
+            tel: "",
+            email_first: "mmonto41@eafit.edu.co​",
+            email_secondary: "cfil​antropia@eafit.edu.co",
+          },
+          {
+            id: 3,
+            img: {
+              title: "Luz Adriana Yepes Arias",
+              src: "/src/assets/images/LuzAdrianaYepes.png",
+            },
+            name: "Luz Adriana Yepes Arias",
+            ocupation: "Analisat de información",
+            tel: "",
+            email_first: "layepesa@eafit.edu.co​",
+            email_secondary: "",
+          },
+          {
+            id: 4,
+            img: {
+              title: "Lizyenny Osorio Álvarez",
+              src: "/src/assets/images/LizyennyOsorio.png",
+            },
+            name: "Lizyenny Osorio Álvarez",
+            ocupation: "Analista de información",
+            tel: "​",
+            email_first: "losorioa@eafit.edu.co",
+            email_secondary: "",
+          },
+          {
+            id: 5,
+            img: {
+              title: "Marcela Builes Toro",
+              src: "/src/assets/images/MarcelaBuilesToro.png",
+            },
+            name: "Marcela Builes Toro",
+            ocupation: "Analista de comunicaciones",
+            tel: "",
+            email_first: "mbuiles10@eafit.edu.co​",
+            email_secondary: "cfil​antropia@eafit.edu.co",
+          },
+          {
+            id: 6,
+            img: {
+              title: "Nury Sepúlveda Muñoz",
+              src: "/src/assets/images/NuryAndreaSepulveda.png",
+            },
+            name: "Nury Sepúlveda Muñoz",
+            ocupation: "Auxiliar administrativa",
+            tel: "Teléfono: (57) 604 261 9500 - extensión 9297​​​",
+            email_first: "nsepulv2@eafit.edu.co",
+            email_secondary: "",
+          },
+        ],
+      },
     },
   },
   footer: {

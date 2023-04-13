@@ -1,6 +1,6 @@
-@import './styles/index';
+@import '/src/styles';
 
 body{
-  font-family: $font-primary;
+  font-family: $font-family-primary;
   font-size: $font-size-s;
 }

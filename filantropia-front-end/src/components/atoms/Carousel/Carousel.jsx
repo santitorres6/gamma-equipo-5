@@ -54,8 +54,6 @@ export const Carousel = ({
     beforeChange: beforeChangeSlider,
   };
 
-  console.log("re-render");
-
   return (
     <Slider {...settings} ref={sliderRef}>
       {children}

@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
-import { DataContext } from "../../utils/context/DataContext";
-import { Link} from "react-router-dom";
-import { Navbar } from "../Navbar/Navbar";
+import { DataContext } from "../../../utils/context/DataContext";
+import { Link } from "react-router-dom";
+import { Navbar } from "../../atoms/Navbar/Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "./Header.scss";

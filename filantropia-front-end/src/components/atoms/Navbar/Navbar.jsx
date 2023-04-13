@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import { HOME } from "../../routes/paths";
+import { HOME } from "../../../routes/paths";
 import "./Navbar.scss";
 
 export const Navbar = ({ items }) => {

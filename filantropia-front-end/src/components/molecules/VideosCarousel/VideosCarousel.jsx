@@ -1,9 +1,9 @@
 import React, { useRef, useState } from "react";
-import { Carousel } from "../../components/Carousel/Carousel";
-import { VideoPlayer } from "../VideoPlayer/VideoPlayer";
-import { Button } from "../Button/Button";
+import { Carousel } from "../../atoms/Carousel/Carousel";
+import { VideoPlayer } from "../../atoms/VideoPlayer/VideoPlayer";
 import { useNavigate } from "react-router-dom";
 import "./VideosCarousel.scss";
+import { Button } from "../../atoms/Button/Button";
 
 export const VideosCarousel = ({ videos, button }) => {
   const navigate = useNavigate();
@@ -18,7 +18,7 @@ export const VideosCarousel = ({ videos, button }) => {
     setCurrentVideoIndex(next);
   };
 
-  const handleOnClick = (href) => {
+  const handleClick = (href) => {
     navigate(href);
   };
 
@@ -29,20 +29,21 @@ export const VideosCarousel = ({ videos, button }) => {
         sliderRef={sliderRef}
         beforeChangeSlider={beforeChangeSlider}
       >
-        {videos.map((video) => {
+        {videos.map((video, index) => {
           return (
             <VideoPlayer
               key={video.id}
               videoId={video.src.slice(30)}
-              currentVideoIndex={currentVideoIndex}
+              // currentVideoIndex={index}
               handleEndVideo={handleEndVideo}
+              isPlaying={index === currentVideoIndex}
             />
           );
         })}
       </Carousel>
       <Button
         title={button.title}
-        handleOnClick={() => handleOnClick(button.href)}
+        handleClick={() => handleClick(button.href)}
       />
     </section>
   );

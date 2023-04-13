@@ -1,0 +1,11 @@
+@import "/src/styles/index";
+
+.paragraphCard{
+  width: 85%;
+  text-align: center;
+  font-size: $font-size-card-paragraph;
+  font-family: $font-family-secondary;
+  text-align: justify;
+  margin:1.5rem 0;
+  // background-color: red;
+}
