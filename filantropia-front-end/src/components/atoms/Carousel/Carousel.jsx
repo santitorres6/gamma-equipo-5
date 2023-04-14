@@ -30,12 +30,14 @@ const NextArrow = (props) => {
   );
 };
 
-export const Carousel = ({
-  children,
-  autoplay = true,
-  sliderRef,
-  beforeChangeSlider,
-}) => {
+export const Carousel = (props) => {
+  const {
+    children,
+    autoplay = true,
+    sliderRef,
+    beforeChangeSlider,
+    initialSlide=0
+  } = props;
   const settings = {
     dots: true,
     infinite: true,
@@ -52,6 +54,7 @@ export const Carousel = ({
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     beforeChange: beforeChangeSlider,
+    initialSlide,
   };
 
   return (

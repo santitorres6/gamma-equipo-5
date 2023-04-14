@@ -1,14 +1,18 @@
 import { createContext, useMemo } from "react";
-import { homePage } from "../data/homePage";
+import { HEADER } from "../data/header";
+import { HOME_PAGE } from "../data/homePage";
+import { FOOTER } from "../data/footer";
 
 export const DataContext = createContext();
 
 export const DataProvider = (props) => {
   const providerValue = useMemo(
     () => ({
-      homePage,
+      HEADER,
+      HOME_PAGE,
+      FOOTER,
     }),
-    [homePage]
+    [HOME_PAGE]
   );
 
   return (

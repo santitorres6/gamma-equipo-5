@@ -1,56 +1,6 @@
-import { DONACIONES, HOME, TESTIMONIOS } from "../../routes/paths";
+import { DONACIONES, TESTIMONIOS } from "../../routes/paths";
 
-export const homePage = {
-  header: {
-    logo: {
-      id: 1,
-      title: "Logo filantropía",
-      img: "/src/assets/images/Logo_Filantropia.png",
-      href: HOME,
-    },
-    navbar: [
-      {
-        id: "0",
-        title: "Inicio",
-        href: HOME,
-      },
-      {
-        id: "1",
-        title: "¿Quienes somos?",
-        href: "#quienes_somos",
-      },
-      {
-        id: "2",
-        title: "Causas",
-        href: "#causas",
-      },
-      {
-        id: "3",
-        title: "Iniciativas",
-        href: "#iniciativas",
-      },
-      {
-        id: "4",
-        title: "¿Cómo donar?",
-        href: "#como_donar",
-      },
-      {
-        id: "5",
-        title: "Más",
-        href: "#mas",
-      },
-      {
-        id: "6",
-        title: "Testimonios",
-        href: TESTIMONIOS,
-      },
-      {
-        id: "7",
-        title: "Donaciones",
-        href: DONACIONES,
-      },
-    ],
-  },
+export const HOME_PAGE = {
   carrousel: {
     videos: [
       {
@@ -338,7 +288,7 @@ export const homePage = {
       },
     ],
     paragraph:
-      "Para donaciones en especie, títulos valores, y donaciones que superen los 39 millones de pesos, comunícate con Filantropía EAFIT ​al teléfono (57) 604​ 2619500 extensión 9297, o envíanos un correo electrónico a cfilantropia@eafit.edu.co​.​​",
+      "Para donaciones en especie, títulos valores, y donaciones que superen los 39 millones de pesos, comunícate con Filantropía EAFIT ​al teléfono (57) 604​ 26195, extensión 9297, o envíanos un correo electrónico a cfilantropia@eafit.edu.co​.​​",
   },
   more: {
     title: "Más",
@@ -646,7 +596,7 @@ export const homePage = {
           },
         ],
       },
-      contact: {
+      contacto: {
         title: "Contacto",
         subtitle: "Escríbenos a cfilantropia@eafit.edu.co",
         cards: [
@@ -658,9 +608,9 @@ export const homePage = {
             },
             name: "Maria Clara Ceballos Arango",
             ocupation: "Jefa de Filantroía Eafit",
-            tel: "Teléfono: (57) 604 261 9500 - extensión 8857​​​",
-            email_first: "mceball4@eafit.edu.co",
-            email_secondary: "cfil​antropia@eafit.edu.co",
+            tel: "Teléfono: (57) 604 261 9500, extensión 8857​​​",
+            emailFirst: "mceball4@eafit.edu.co",
+            emailSecondary: "cfil​antropia@eafit.edu.co",
           },
           {
             id: 2,
@@ -670,9 +620,8 @@ export const homePage = {
             },
             name: "María Cristina Montoya Vélez",
             ocupation: "Coordinadora Administrativa",
-            tel: "",
-            email_first: "mmonto41@eafit.edu.co​",
-            email_secondary: "cfil​antropia@eafit.edu.co",
+            emailFirst: "mmonto41@eafit.edu.co​",
+            emailSecondary: "cfil​antropia@eafit.edu.co",
           },
           {
             id: 3,
@@ -682,9 +631,7 @@ export const homePage = {
             },
             name: "Luz Adriana Yepes Arias",
             ocupation: "Analisat de información",
-            tel: "",
-            email_first: "layepesa@eafit.edu.co​",
-            email_secondary: "",
+            emailFirst: "layepesa@eafit.edu.co​",
           },
           {
             id: 4,
@@ -694,9 +641,7 @@ export const homePage = {
             },
             name: "Lizyenny Osorio Álvarez",
             ocupation: "Analista de información",
-            tel: "​",
-            email_first: "losorioa@eafit.edu.co",
-            email_secondary: "",
+            emailFirst: "losorioa@eafit.edu.co",
           },
           {
             id: 5,
@@ -706,9 +651,8 @@ export const homePage = {
             },
             name: "Marcela Builes Toro",
             ocupation: "Analista de comunicaciones",
-            tel: "",
-            email_first: "mbuiles10@eafit.edu.co​",
-            email_secondary: "cfil​antropia@eafit.edu.co",
+            emailFirst: "mbuiles10@eafit.edu.co​",
+            emailSecondary: "cfil​antropia@eafit.edu.co",
           },
           {
             id: 6,
@@ -718,98 +662,12 @@ export const homePage = {
             },
             name: "Nury Sepúlveda Muñoz",
             ocupation: "Auxiliar administrativa",
-            tel: "Teléfono: (57) 604 261 9500 - extensión 9297​​​",
-            email_first: "nsepulv2@eafit.edu.co",
-            email_secondary: "",
+            tel: "Teléfono: (57) 604 261 9500, extensión 9297​​​",
+            emailFirst: "nsepulv2@eafit.edu.co",
           },
         ],
       },
     },
   },
-  footer: {
-    title: "Conoce nuestros principales aliados",
-    icons: [
-      {
-        title: "ANDI",
-        src: "/src/assets/images/andi_logo.jpg",
-      },
-      {
-        title: "ARIZA & MARIN",
-        src: "/src/assets/images/ariza_&_marin_logo.jpg",
-      },
-      {
-        title: "CESE",
-        src: "/src/assets/images/cese_logo.jpg",
-      },
-      {
-        title: "Amigos de EAFIT",
-        src: "/src/assets/images/amigos_de_eafit_logo.jpg",
-      },
-      {
-        title: "Crystal SAS",
-        src: "/src/assets/images/crystal_logo.jpg",
-      },
-      {
-        title: "Fundacion Aurelio Llano Posada",
-        src: "/src/assets/images/fundacion_aurelio_llano_posada_logo.jpg",
-      },
-      {
-        title: "Fundación Bolívar Davivienda",
-        src: "/src/assets/images/fundacion_bolivar_davivienda_logo.jpg",
-      },
-      {
-        title: "Fundación educación",
-        src: "/src/assets/images/fundacion_educacion_logo.jpg",
-      },
-      {
-        title: "Fundación Fraternidad Medellín",
-        src: "/src/assets/images/fundacion_fraternidad_medellin_logo.jpg",
-      },
-      {
-        title: "Grupo Argos Fundación",
-        src: "/src/assets/images/grupo_argos_fundacion_logo.jpg",
-      },
-      {
-        title: "Fundación Grupo Bancolombia",
-        src: "/src/assets/images/fundacion_grupo_bancolombia_logo.jpg",
-      },
-      {
-        title: "Fundación Juan Pablo Gutierrez",
-        src: "/src/assets/images/fundacion_juan_pablo_gutierrez_logo.jpg",
-      },
-      {
-        title: "Sofía Pérez de Soto Fundación",
-        src: "/src/assets/images/sofia_perez_de_soto_logo.jpg",
-      },
-      {
-        title: "Global Seguros",
-        src: "/src/assets/images/global_seguros_logo.jpg",
-      },
-      {
-        title: "Grupo Bios",
-        src: "/src/assets/images/grupo_bios_logo.jpg",
-      },
-      {
-        title: "MASGLOBAL",
-        src: "/src/assets/images/masglobal_logo.jpg",
-      },
-      {
-        title: "Mineros",
-        src: "/src/assets/images/mineros_logo.jpg",
-      },
-      {
-        title: "MITSUBISHI MOTORS",
-        src: "/src/assets/images/mitsubishi_motors_logo.jpg",
-      },
-      {
-        title: "Renault Groupe Fundación Colombia",
-        src: "/src/assets/images/renault_group_logo.jpg",
-      },
-      {
-        title: "Ternium",
-        src: "/src/assets/images/ternium_logo.jpg",
-      },
-    ],
-  },
 };
-//
+

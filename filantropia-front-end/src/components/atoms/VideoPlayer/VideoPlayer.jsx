@@ -1,7 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "./VideoPlayer.scss";
 
-export const VideoPlayer = ({ videoId, isPlaying, handleEndVideo }) => {
+export const VideoPlayer = ({
+  videoId,
+  isPlaying,
+  handleEndVideo,
+  currentVideoIndex,
+}) => {
   // let player = null;
   const [player, setPlayer] = useState();
 
@@ -15,26 +20,30 @@ export const VideoPlayer = ({ videoId, isPlaying, handleEndVideo }) => {
         videoId,
         playerVars: {
           autoplay: 1,
+          controls: 0,
           mute: 0,
           wmode: "opaque",
           origin: "http://localhost:5173",
         },
         events: {
           onStateChange: onPlayerStateChange,
+          onReady: (event) => {
+            event.target.playVideo();
+            playerInstance.playVideo();
+          },
         },
       });
 
       setPlayer(playerInstance);
-    }
-  }, [videoId]);
-
-  useEffect(() => {
-    if (player) {
-      if (!isPlaying && player.pauseVideo) {
-        player?.pauseVideo();
+      // playerInstance.playVideo();
+    } else {
+      if (isPlaying) {
+        player.playVideo();
+      } else {
+        player.pauseVideo();
       }
     }
-  }, [isPlaying]);
+  }, [videoId, isPlaying]);
 
   const onPlayerStateChange = (event) => {
     // Evento cuando el estado del reproductor de video cambia [2] indica que el video ha finalizado

@@ -6,12 +6,12 @@ import { BrowserRouter } from "react-router-dom";
 import { DataProvider } from "./utils/context/DataContext";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+  <>
     {/* // Se envuelve la aplicacion del provider de rutas */}
-    <BrowserRouter>
-      <DataProvider>
+    <DataProvider>
+      <BrowserRouter>
         <App />
-      </DataProvider>
-    </BrowserRouter>
-  </React.StrictMode>
+      </BrowserRouter>
+    </DataProvider>
+  </>
 );

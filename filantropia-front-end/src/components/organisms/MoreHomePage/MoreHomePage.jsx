@@ -5,12 +5,13 @@ import { InformesDeGestion } from "../InformesDeGestion/InformesDeGestion";
 import { Noticias } from "../Noticias/Noticias";
 import "./MoreHomePage.scss";
 import { PreguntasFrecuentes } from "../PreguntasFrecuentes/PreguntasFrecuentes";
+import { Contacto } from "../Contacto/Contacto";
 export const MoreHomePage = (props) => {
   const { title, accordion } = props;
-  const { informesDeGestion, noticias, preguntasFrecuentes, contact } =
+  const { informesDeGestion, noticias, preguntasFrecuentes, contacto } =
     accordion;
   return (
-    <section className="moreSection">
+    <section className="moreSection" id="mas">
       <TitleSection title={title} />
       <Accordion>
         <InformesDeGestion
@@ -22,6 +23,7 @@ export const MoreHomePage = (props) => {
           title={preguntasFrecuentes.title}
           preguntasFrecuentes={preguntasFrecuentes}
         />
+        <Contacto title={contacto.title} contacto={contacto} />
       </Accordion>
 
       <div style={{ width: "30%", margin: "auto" }}></div>

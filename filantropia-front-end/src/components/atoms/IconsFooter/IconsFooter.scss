@@ -1,0 +1,14 @@
+.listIcons{
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap:5%;
+
+  &__icon{
+    width:15rem;
+    height:10rem;
+    object-fit: fill;
+    margin:1rem 0;
+  }
+}

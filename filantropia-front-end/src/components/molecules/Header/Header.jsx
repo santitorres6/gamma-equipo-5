@@ -7,9 +7,8 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "./Header.scss";
 
 export const Header = () => {
-  const { homePage } = useContext(DataContext);
-  const { header } = homePage;
-  const { logo, navbar } = header;
+  const { HEADER } = useContext(DataContext);
+  const { logo, navbar } = HEADER;
   return (
     <header className="header">
       <Logo {...logo} />

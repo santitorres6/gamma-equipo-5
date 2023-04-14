@@ -1,13 +1,14 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Carousel } from "../../atoms/Carousel/Carousel";
 import { VideoPlayer } from "../../atoms/VideoPlayer/VideoPlayer";
 import { useNavigate } from "react-router-dom";
 import "./VideosCarousel.scss";
 import { Button } from "../../atoms/Button/Button";
 
+const INITIAL_SLIDE = 0;
 export const VideosCarousel = ({ videos, button }) => {
   const navigate = useNavigate();
-  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+  const [currentVideoIndex, setCurrentVideoIndex] = useState(INITIAL_SLIDE);
   const sliderRef = useRef();
 
   const handleEndVideo = () => {
@@ -28,15 +29,16 @@ export const VideosCarousel = ({ videos, button }) => {
         autoplay={false}
         sliderRef={sliderRef}
         beforeChangeSlider={beforeChangeSlider}
+        initialSlide={INITIAL_SLIDE}
       >
         {videos.map((video, index) => {
           return (
             <VideoPlayer
               key={video.id}
               videoId={video.src.slice(30)}
-              // currentVideoIndex={index}
               handleEndVideo={handleEndVideo}
               isPlaying={index === currentVideoIndex}
+              currentVideoIndex={currentVideoIndex}
             />
           );
         })}

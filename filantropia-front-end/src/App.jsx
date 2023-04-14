@@ -5,6 +5,7 @@ import { Testimonios } from "./pages/Testimonios/Testimonios";
 import { Donaciones } from "./pages/Donaciones/Donaciones";
 import { AnimatePresence } from "framer-motion";
 import "./App.scss";
+import { Footer } from "./components/molecules/Footer/Footer";
 
 function App() {
   const location = useLocation();
@@ -21,6 +22,7 @@ function App() {
         </Routes>
       </AnimatePresence>
       {/* //Componente footer */}
+      <Footer />
     </div>
   );
 }

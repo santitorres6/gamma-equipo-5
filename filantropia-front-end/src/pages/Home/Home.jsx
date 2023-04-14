@@ -6,8 +6,8 @@ import { MoreHomePage } from "../../components/organisms/MoreHomePage/MoreHomePa
 import "./Home.scss";
 
 export const Home = () => {
-  const { homePage } = useContext(DataContext);
-  const { carrousel, more } = homePage;
+  const { HOME_PAGE } = useContext(DataContext);
+  const { carrousel, more } = HOME_PAGE;
   const { videos, button } = carrousel;
 
   return (
