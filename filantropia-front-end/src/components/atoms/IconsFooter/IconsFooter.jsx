@@ -5,8 +5,8 @@ export const IconsFooter = (props) => {
   const { icons } = props;
   return (
     <div className="listIcons">
-      {icons.map(({ title, src }) => {
-        return <Icon title={title} src={src} />;
+      {icons.map(({ id, title, src }) => {
+        return <Icon key={id} title={title} src={src} />;
       })}
     </div>
   );

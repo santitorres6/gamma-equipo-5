@@ -6,13 +6,15 @@ import { Button } from "../../atoms/Button/Button";
 import "./CardPreguntasFrecuentes.scss";
 
 export const CardPreguntasFrecuentes = (props) => {
-  const { title, paragraph, button } = props;
-  const handleClick = () => {};
+  const { title, paragraph, button, handleClick } = props;
   return (
     <Card>
       <TitleCard title={title} />
       <ParagraphCard paragraph={paragraph} />
-      <Button title={button?.title} handleClick={handleClick} />
+      <Button
+        title={button?.title}
+        handleClick={() => handleClick(button.href)}
+      />
     </Card>
   );
 };

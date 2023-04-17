@@ -3,9 +3,10 @@ import { TitleSection } from "../../atoms/TitleSection/TitleSection";
 import { Accordion } from "../../molecules/Accordion/Accordion";
 import { InformesDeGestion } from "../InformesDeGestion/InformesDeGestion";
 import { Noticias } from "../Noticias/Noticias";
-import "./MoreHomePage.scss";
 import { PreguntasFrecuentes } from "../PreguntasFrecuentes/PreguntasFrecuentes";
 import { Contacto } from "../Contacto/Contacto";
+import "./MoreHomePage.scss";
+
 export const MoreHomePage = (props) => {
   const { title, accordion } = props;
   const { informesDeGestion, noticias, preguntasFrecuentes, contacto } =

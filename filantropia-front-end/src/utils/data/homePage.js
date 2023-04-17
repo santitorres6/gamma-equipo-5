@@ -504,12 +504,18 @@ export const HOME_PAGE = {
         cards: [
           {
             id: 1,
-            title: "¿Cómo puedo hacer una donación?",
+            title: "¿Qué es una donación?",
             paragraph:
               "Es el acto por el cual una persona natural o jurídica, denominada donante, transfiere a título gratuito una parte de sus bienes a otra que la acepta, denominado donatario.",
+            modal: {
+              title: "¿Qué es una donación?",
+              paragraphs: [
+                "Es el acto por el cual una persona natural o jurídica, denominada donante, transfiere a título gratuito una parte de sus bienes a otra que la acepta, denominado donatario.",
+              ],
+            },
             button: {
               title: "Ver más",
-              href: "",
+              href: 1,
             },
           },
           {
@@ -517,9 +523,22 @@ export const HOME_PAGE = {
             title: "¿Cómo puedo hacer una donación?",
             paragraph:
               "​Desde Filantropía EAFIT contamos con diferentes canales para facilitar el proceso de donación. Para resolver cualquier inquietud comunícate con...",
+            modal: {
+              title: "¿Cómo puedo hacer una donación?",
+              paragraphs: [
+                "Es el acto por el cual una persona natural o jurídica, denominada donante, transfiere a título gratuito una parte de sus bienes a otra que la acepta, denominado donatario.",
+                "Para resolver cualquier inquietud comunícate con Filantropía EAFIT al teléfono 604 2619500 extensión 9297, o envíanos un correo electrónico a cfilantropia@eafit.edu.co.",
+                "Medios para realizar una donación",
+                "Pago en línea: De forma fácil y segura puedes realizar la donación con tarjeta crédito o débito a través de nuestro sitio web de donaciones.",
+                "Transferencia electrónica:  Puedes realizar tu donación por medio de transferencia a la cuenta de ahorros Bancolombia número 935-948075-78 a nombre de la Universidad EAFIT y enviarnos copia del comprobante al correo cfilantropia@eafit.edu.co.",
+                "Cheque: Comunícate con Filantropía EAFIT al teléfono 604 2619500 extensión 9297, o envíanos un correo electrónico a cfilantropia@eafit.edu.co",
+                "Caja principal Universidad EAFIT:  Puedes dirigirte a la Universidad EAFIT en la dirección Carrera 49 N° 7 Sur-50, Bloque 29 Piso 1, Medellín, Colombia.",
+                "Para donaciones en especie, títulos valores u otros, comunícate con Filantropía EAFIT al teléfono 604 2619500 extensión 9297, o envíanos un correo electrónico a cfilantropia@eafit.edu.co.",
+              ],
+            },
             button: {
               title: "Ver más",
-              href: "",
+              href: 2,
             },
           },
           {
@@ -527,9 +546,15 @@ export const HOME_PAGE = {
             title: "¿Quiénes pueden donar?",
             paragraph:
               "​Todas las personas interesadas en apoyar a la Universidad EAFIT, entre ellos estudiantes, egresados, empleados, aliados, y personas jurídicas como organizaciones y fundaciones.",
+            modal: {
+              title: "¿Quiénes pueden donar?",
+              paragraphs: [
+                "​Todas las personas interesadas en apoyar a la Universidad EAFIT, entre ellos estudiantes, egresados, empleados, aliados, y personas jurídicas como organizaciones y fundaciones.",
+              ],
+            },
             button: {
               title: "Ver más",
-              href: "",
+              href: 3,
             },
           },
           {
@@ -537,9 +562,15 @@ export const HOME_PAGE = {
             title: "¿Cómo puedo hacer donaciones en especie?",
             paragraph:
               "​La Universidad EAFIT también recibe donaciones en especie. Entre estas se cuentan equipos para laboratorios, equipos deportivos, computadores, libros...",
+            modal: {
+              title: "¿Cómo puedo hacer donaciones en especie?",
+              paragraphs: [
+                "​La Universidad EAFIT también recibe donaciones en especie. Entre estas se cuentan equipos para laboratorios, equipos deportivos, computadores, libros, dotación para las aulas, instrumentos para la orquesta sinfónica EAFIT, entre otros. Estos aportes permiten a nuestros estudiantes tener acceso a herramientas indispensables para su aprendizaje e igualmente contribuyen con la labor docente y de investigación de nuestros profesores. Para hacer una donación en especie, envíanos un correo a cfilantropia@eafit.edu.co o comunícate al teléfono (57) 604 2619500 extensión 9297.",
+              ],
+            },
             button: {
               title: "Ver más",
-              href: "",
+              href: 4,
             },
           },
           {
@@ -547,9 +578,15 @@ export const HOME_PAGE = {
             title: "¿Cómo obtengo el certificado de donación?",
             paragraph:
               "Filantropía EAFIT hará llegar el certificado de donación durante los tres primeros meses del año siguiente al año en que realizaste la donación a la dirección registrada por el donante...",
+            modal: {
+              title: "¿Cómo obtengo el certificado de donación?",
+              paragraphs: [
+                "Filantropía EAFIT hará llegar el certificado de donación durante los tres primeros meses del año siguiente al año en que realizaste la donación a la dirección registrada por el donante, en caso de necesitar el certificado de manera inmediata realiza tu solicitud al correo electrónico cfilantropia@eafit.edu.co",
+              ],
+            },
             button: {
               title: "Ver más",
-              href: "",
+              href: 5,
             },
           },
           {
@@ -558,40 +595,83 @@ export const HOME_PAGE = {
               "¿Qué beneficios tributarios obtengo al realizar una donación?",
             paragraph:
               "​La Universidad EAFIT, en su calidad de donataria y en cumplimiento de la ley fiscal, otorga el certificado de donación independientemente de su monto...",
+            modal: {
+              title:
+                "¿Qué beneficios tributarios obtengo al realizar una donación?",
+              paragraphs: [
+                "​La Universidad EAFIT, en su calidad de donataria y en cumplimiento de la ley fiscal, otorga el certificado de donación independientemente de su monto, debidamente suscrito por el revisor fiscal, el cual dará lugar a un descuento sobre el impuesto de renta y complementarios, bien sea persona natural o jurídica.",
+              ],
+            },
             button: {
               title: "Ver más",
-              href: "",
+              href: 6,
             },
           },
           {
             id: 7,
+            title: "¿Qué es una donación recurrente?",
+            paragraph:
+              "Son donaciones que puedes programar para que se realicen de forma automática periódicamente.",
+            modal: {
+              title: "¿Qué es una donación recurrente?",
+              paragraphs: [
+                "Son donaciones que puedes programar para que se realicen de forma automática periódicamente.",
+              ],
+            },
+            button: {
+              title: "Ver más",
+              href: 7,
+            },
+          },
+          {
+            id: 8,
             title:
               "¿Cómo y cuándo puedo cancelar la recurrencia de una donación?",
             paragraph:
               "​Se puede cancelar la recurrencia en el momento que el donante lo decida, solo debes enviar un correo electrónico a la dirección...",
+            modal: {
+              title:
+                "¿Cómo y cuándo puedo cancelar la recurrencia de una donación?",
+              paragraphs: [
+                "Se puede cancelar la recurrencia en el momento que el donante lo decida, solo debes enviar un correo electrónico a la dirección: cfilantropia@eafit.edu.co, o comunicarte al teléfono (57) 604 2619500 extensión 9297.",
+              ],
+            },
             button: {
               title: "Ver más",
-              href: "",
+              href: 8,
             },
           },
           {
             id: 9,
-            title: "¿Qué es una donación recurrente?",
+            title:
+              "¿Cuál es el monto mínimo y máximo para hacer una donación en línea?",
             paragraph:
-              "Son donaciones que puedes programar para que se realicen de forma automática periódicamente.",
+              "Se pueden realizar donaciones desde $10.000 pesos colombianos hasta $39 millones de pesos colombianos.",
+            modal: {
+              title: "",
+              paragraphs: [
+                "Se pueden realizar donaciones desde $10.000 pesos colombianos hasta $39 millones de pesos colombianos.",
+              ],
+            },
             button: {
               title: "Ver más",
-              href: "",
+              href: 9,
             },
           },
           {
-            id: 9,
+            id: 10,
             title: "¿Cuándo una donación requiere insinuación notarial?",
             paragraph:
               "Todas las donaciones en dinero o en especie que superen los 50SMLMV requieren insinuación notarial. Para saber más...",
+            modal: {
+              title: "¿Cuándo una donación requiere insinuación notarial?",
+              paragraphs: [
+                "Todas las donaciones en dinero o en especie que superen los 50SMLMV requieren insinuación notarial. Para saber más de este proceso comunícate a cfilantropia@eafit.edu.co o al teléfono (57) 604 2619500 extensión 9297.",
+              ],
+            },
             button: {
               title: "Ver más",
-              href: "",
+              href: 10,
             },
           },
         ],
@@ -670,4 +750,3 @@ export const HOME_PAGE = {
     },
   },
 };
-
