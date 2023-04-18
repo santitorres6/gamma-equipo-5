@@ -1,0 +1,20 @@
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 5%;
+  align-items: center;
+  background-color: #000000;
+  color:white;
+
+  &__Logo{
+    width: 300px;
+    &-img {
+        object-fit: cover;
+      }
+  }
+
+  &__hamburgerMenu{
+    display:none;
+  }
+}

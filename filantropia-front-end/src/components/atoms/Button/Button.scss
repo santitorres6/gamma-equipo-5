@@ -1,0 +1,20 @@
+@import '/src/styles/index';
+
+.button{
+  font-size: $font-size-s;
+  font-weight: 900;
+  color: $color-tertiary;
+  background-color: $color-background-secondary;
+  z-index: $layer-second;
+  padding: 1rem 3.5rem;
+  border:1px solid transparent;
+  border-radius:1rem;
+  cursor: pointer;
+  transition: all ease 1000ms;
+}
+
+.button:hover{
+  background-color: $color-background-secondary-hover;
+  border:1px solid $color-background-secondary;
+  font-size: calc($font-size-s + 1px);
+}

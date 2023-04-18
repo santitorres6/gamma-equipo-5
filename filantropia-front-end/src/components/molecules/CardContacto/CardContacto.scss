@@ -1,0 +1,20 @@
+@import "/src/styles";
+
+.Contact__name{
+  // width:90%;
+  font-size: $font-size-m;
+  font-weight: $font-weight-card-title;
+  text-align: center;
+  padding: 2%;
+  margin: 0.5rem 0 1rem;
+}
+
+.Contact__ocupation, .Contact__tel, .Contact__emailFirst, .Contact__emailSecondary {
+  text-align: center;
+  // margin: 0.3rem 0;
+  max-width: 80%;
+}
+
+.Contact__emailFirst, .Contact__emailSecondary{
+  color:$color-background-primary
+}

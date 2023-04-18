@@ -3,10 +3,30 @@ $color-secondary: #7C7C7C;
 $color-tertiary: #EEE5E9;
 $color-background-primary: #28B2A9;
 $color-background-secondary: #FF3131;
+$color-background-secondary-hover: rgba(248, 112, 112, 0.908);
 
-$font-primary: 'Roboto', sans-serif;
-$font-secondary: 'Inter', sans-serif;
+$font-family-primary: 'Roboto', sans-serif;
+$font-family-secondary: 'Inter', sans-serif;
 
-$font-size-s:1rem;
+$font-size-s:1.5rem;
 $font-size-m:2rem;
 $font-size-l:3rem;
+
+$font-size-title-section: 4rem;
+$font-weight-title-section: 900;
+
+$font-size-accordion-header-text: 2.4rem;
+$font-weight-accordion-header-text: 900;
+
+$font-size-card-title: 2.4rem;
+$font-size-card-paragraph:1.5rem;
+$font-size-card-date:1.4rem;
+$font-size-card-category:1rem;
+$font-weight-card-title:700;
+$font-weight-card-date:900;
+$font-weight-card-category:900;
+
+$layer-first:1;
+$layer-second:100;
+
+$border-division-section:5px solid #EEE5E9;

@@ -1,0 +1,21 @@
+@import "/src/styles";
+
+.ant-collapse{
+  width: 95%;
+  margin:auto;
+  background-color: rgba(238, 229, 233,0.7);
+}
+
+.ant-collapse-header-text{
+  font-size: $font-size-accordion-header-text;
+  font-weight: $font-weight-accordion-header-text;
+}
+
+.ant-collapse-item-active .ant-collapse-expand-icon, .ant-collapse-item-active .ant-collapse-header-text{
+  color:red
+}
+
+.ant-collapse-arrow>svg{
+  width: $font-size-accordion-header-text;
+  height: $font-size-accordion-header-text;
+}
