@@ -10,7 +10,6 @@ import "./Home.scss";
 
 export const Home = () => {
   const { HOME_PAGE } = useContext(DataContext);
-  const { carrousel, more } = HOME_PAGE;
 
   const { carrousel, more,ourCauses, initiatives } = HOME_PAGE;
   const { videos, button } = carrousel;
