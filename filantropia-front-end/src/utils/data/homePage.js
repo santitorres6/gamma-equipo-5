@@ -50,7 +50,7 @@ export const HOME_PAGE = {
         id: 1,
         imagen: {
           title: "Equidad social e inclusión",
-          url: "/src/assets/images/equidad_social_e_inclusion.jpg",
+          src: "/src/assets/images/equidad_social_e_inclusion.jpg",
         },
         title: "Equidad social e inclusión",
         paragraph:
@@ -64,7 +64,7 @@ export const HOME_PAGE = {
         id: 2,
         imagen: {
           title: "Ciencia, tecnología e innovación",
-          url: "/src/assets/images/ciencia_tecnologia_innovacion.jpg",
+          src: "/src/assets/images/ciencia_tecnologia_innovacion.jpg",
         },
         title: "Ciencia, tecnología e innovación",
         paragraph:
@@ -78,7 +78,7 @@ export const HOME_PAGE = {
         id: 3,
         imagen: {
           title: "Inspiracion - voluntariado",
-          url: "/src/assets/images/inspiracion_voluntariado.jpg",
+          src: "/src/assets/images/inspiracion_voluntariado.jpg",
         },
         title: "Inspiracion - voluntariado",
         paragraph:
@@ -92,7 +92,7 @@ export const HOME_PAGE = {
         id: 4,
         imagen: {
           title: "Transformación humanista",
-          url: "/src/assets/images/transformacion_humanista.jpg",
+          src: "/src/assets/images/transformacion_humanista.jpg",
         },
         title: "Transformación humanista",
         paragraph:
@@ -118,7 +118,7 @@ export const HOME_PAGE = {
         id: 1,
         imagen: {
           title: "Eafit vamos pa'lante",
-          url: "/src/assets/images/vamos_pa_lante.png",
+          src: "/src/assets/images/vamos_pa_lante.png",
         },
         title: "Eafit vamos pa'lante",
         button: {
@@ -130,7 +130,7 @@ export const HOME_PAGE = {
         id: 2,
         imagen: {
           title: "Giving Day Eafit",
-          url: "/src/assets/images/giving_day.jpg",
+          src: "/src/assets/images/giving_day.jpg",
         },
         title: "Giving Day Eafit",
         button: {
@@ -142,7 +142,7 @@ export const HOME_PAGE = {
         id: 3,
         imagen: {
           title: "Productos con sentido Eafitense",
-          url: "/src/assets/images/productos_con_sentido.jpg",
+          src: "/src/assets/images/productos_con_sentido.jpg",
         },
         title: "Productos con sentido Eafitense",
         button: {
@@ -154,7 +154,7 @@ export const HOME_PAGE = {
         id: 4,
         imagen: {
           title: "Vincúlate a creadores de principios",
-          url: "/src/assets/images/creadores_de_principios.jpg",
+          src: "/src/assets/images/creadores_de_principios.jpg",
         },
         title: "Vincúlate a creadores de principios",
         button: {
@@ -166,7 +166,7 @@ export const HOME_PAGE = {
         id: 5,
         imagen: {
           title: "Volemos juntos",
-          url: "/src/assets/images/volemos_juntos.png",
+          src: "/src/assets/images/volemos_juntos.png",
         },
         title: "Volemos juntos",
         button: {
