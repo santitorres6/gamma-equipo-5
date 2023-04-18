@@ -183,44 +183,35 @@ export const HOME_PAGE = {
     cards: [
       {
         id: 1,
-        logo: {
+        img: {
           title: "Donación en línea",
-          img: {
-            title: "Donación en línea",
-            src: "/src/assets/images/donacion_en_linea.jpg",
-          },
+          src: "/src/assets/images/donacion_en_linea.jpg",
         },
         title: "Donación en línea",
-        paragraph: [
+        paragraphs: [
           "De forma fácil y segura realiza la donación con ta​rjeta de crédito o débito​ haciendo clic en el í​​cono o ​​​a través ​de ​​nuestro siti​o web de donaciones​.​​​​",
           "​*Para realizar transacciones electrónicas por internet recomendamos utilizar el navegador Google Chrome.​",
         ],
       },
       {
         id: 2,
-        logo: {
+        img: {
           title: "Transferencia",
-          img: {
-            title: "Transferencia",
-            src: "/src/assets/images/transferencia.jpg",
-          },
+          src: "/src/assets/images/transferencia.jpg",
         },
         title: "Transferencia",
-        paragraph: [
+        paragraphs: [
           "Puedes programar tus donaciones recurrentes desde la sucursal virtual personas inscribiendo el convenio No. 76787 a nombre de EAFIT CENTRO FILANTROPÍA por la opción “pagos facturas” o puedes acercarte a cualquier sucursal Bancolombia y solicitar la inscripción al mismo convenio.",
         ],
       },
       {
         id: 3,
-        logo: {
+        img: {
           title: "Con código QR",
-          img: {
-            title: "Con código QR",
-            src: "/src/assets/images/con_codigo_qr.jpg",
-          },
+          src: "/src/assets/images/con_codigo_qr.jpg",
         },
         title: "Con código QR",
-        paragraph: [
+        paragraphs: [
           "Selecciona la opción “Transferencias”, luego elige la opción “con código QR” y escoge “Transferir usando la cámara.”​",
           "Desde la sucursal virtual, la app personas o directamente desde una oficina:​​​​",
           "A la cuenta de ahorros Bancolombia número 935-948075-78 a nombre de la Universidad EAFIT.​​",
@@ -229,59 +220,47 @@ export const HOME_PAGE = {
       },
       {
         id: 4,
-        logo: {
+        img: {
           title: "Cheque o donación en especie",
-          img: {
-            title: "Cheque o donación en especie",
-            src: "/src/assets/images/cheque_o_donacion_en_especie.jpg",
-          },
+          src: "/src/assets/images/cheque_o_donacion_en_especie.jpg",
         },
         title: "Cheque o donación en especie",
-        paragraph: [
+        paragraphs: [
           "Comunícate con Filantropía EAFIT:(57) 604​ 2619500 ext 9297",
           "​cfilantropia@eafit.edu.co",
         ],
       },
       {
         id: 5,
-        logo: {
+        img: {
           title: "Personalmente en la Universidad EAFIT",
-          img: {
-            title: "Personalmente en la Universidad EAFIT",
-            src: "/src/assets/images/personalmente_en_la_universidad_eafit.jpg",
-          },
+          src: "/src/assets/images/personalmente_en_la_universidad_eafit.jpg",
         },
         title: "Personalmente en la Universidad EAFIT",
-        paragraph: [
+        paragraphs: [
           "Dirígete a la caja principal del campus en Medellín, ubicado ​en la ​c​ra 49 #7 Sur-50 Bloque 29, piso 1.​",
         ],
       },
       {
         id: 6,
-        logo: {
+        img: {
           title: "Deducción de nómina para empleados",
-          img: {
-            title: "Deducción de nómina para empleados",
-            src: "/src/assets/images/deduccion_nomina_para_empleados.jpg",
-          },
+          src: "/src/assets/images/deduccion_nomina_para_empleados.jpg",
         },
         title: "Deducción de nómina para empleados",
-        paragraph: [
+        paragraphs: [
           "Si eres profesor o empleado de la Universidad, puedes realizar tu donación ingr​esando a este link y diligenciando el formulario.​​",
           "​Si deseas hacerlo físico,​ ​ descarga el formato de deducción de nómina​ y envíalo firmado, como documento adjunto, a los correos mavelasquc@eafit.edu.co​​ y ​ ​cfilant​ropia@eafit.edu.co.​​",
         ],
       },
       {
         id: 7,
-        logo: {
+        img: {
           title: "Tiempo y talento",
-          img: {
-            title: "Tiempo y talento",
-            src: "/src/assets/images/tiempo_talento.jpg",
-          },
+          src: "/src/assets/images/tiempo_talento.jpg",
         },
         title: "Tiempo y talento",
-        paragraph: [
+        paragraphs: [
           "Puedes donar tu tiempo, talento y/o conocimiento participando de los diferentes proyectos ​de voluntariado en temas comunitarios, sociales, culturales, educativos y filantrópicos, ​contribuyendo con la transformación social del país y obteniendo incontables experiencias ​​​que le aportarán ​a tu proyecto de vida. Únete.",
           "Ingresa y diligencia el formulario haciendo clic aquí​​​​​",
         ],
