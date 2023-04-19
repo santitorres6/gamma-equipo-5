@@ -57,7 +57,7 @@ export const HOME_PAGE = {
           "Brind​amos acceso a la Universidad EAFIT ​a jóvenes que cuentan con un excelente desempeño académico y que no disponen de los recursos económicos para asumir el valor de la ma​trícula en la Ins​​titución.​​",
         button: {
           title: "Ver más",
-          // href: TESTIMONIOS,
+          href: "EQUIDAD_SOCIAL_E_INCLUSION",
         },
       },
       {
@@ -71,7 +71,7 @@ export const HOME_PAGE = {
           "Con tus aportes a los proyectos de investigación científica y aplicada, impulsas la producción de respuestas innovadoras que contribuyen a la solución de problemáticas ​de ​nuestra sociedad.",
         button: {
           title: "Ver más",
-          // href: TESTIMONIOS,
+          href: "CIENCIA_TECNOLOGIA_E_INNOVACION",
         },
       },
       {
@@ -85,7 +85,7 @@ export const HOME_PAGE = {
           "El voluntariado EAFIT es un puente de transformación social y cultural, que inspira a la comunidad eafitense y sus allegados a vincularse con iniciativas ​​​sociales, académicas, comunitarias, culturales.",
         button: {
           title: "Ver más",
-          // href: TESTIMONIOS,
+          href: "INSPIRACION_VOLUNTARIADO",
         },
       },
       {
@@ -99,10 +99,55 @@ export const HOME_PAGE = {
           "La formación no se da solo en las aulas, también en diferentes espacios deportivos, artísticos y culturales. Con tus aportes a esta causa contribuyes a la creación de un ambiente que favorece el aprendizaje integral de su comunidad.​",
         button: {
           title: "Ver más",
-          // href: TESTIMONIOS,
+          href: "TRANSFORMACION_HUMANISTA",
         },
       },
     ],
+    modals: {
+      equidadSocial: {
+        img: {
+          title: "Equidad social e inclusión",
+          src: "/src/assets/images/equidad_social_e_inclusion.jpg",
+        },
+        title: "Equidad social e inclusión",
+        body: {
+          title:
+            "Estudiantes con oportunidades a través de becas y apoyos académicos",
+          paragraphs: [
+            "​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​En C​olombia, más de dos millones de jóvenes ​se inscriben a una Institución de Educación Superior​​,​ pero solo el 41% ​logra matricularse.​",
+            "En Antioquia, de cada 1​0 jóvene​​s entre los 17 y 21 años, solo 5 ingresan a una Institución de Educación Superior.​",
+            "​En Medellín, de cada 100 e​​​studiantes qu​​​e culminan el grado 11, solo 48 hacen tránsito inmediato a la Educación Superior.​",
+            "​Con Filantropía EAFIT, la Univ​ersidad, con el apoyo de diversos aliados, ha logrado otorgar más de 2.540 becas cada semestre.​",
+          ],
+          spans: [
+            "Datos de 20​​20",
+            "Fuente: https://snies.mineducaci​​on.gov.co​​ ​y datos propios de la Universidad EAFIT.​​​",
+          ],
+        },
+        fondoBecas: {
+          title: "Conoce el fondo de becas",
+          subtitle:
+            "¡Cono​​​​ce los test​​im​onios ​​de los estudiantesque han sido beneficiados!​",
+          card: {
+            img: {
+              title: "Fondo de becas",
+              src: "/src/assets/images/fondo_de_becas.png",
+            },
+            paragraph:
+              "Brind​amos acceso a la Universidad EAFIT ​a jóvenes que cuentan con un excelente desempeño académico y que no disponen de los recursos económicos para asumir el valor de la ma​trícula en la Ins​​titución.",
+          },
+          paragraph:
+            "Gracias a tus aportes a nuest​​ro​ fondo de becas, lograre​mos qu​​e muchos ​m​ás estudiantes puedan acceder a una ins​​​titución de alta calidad ​que ayud​​ará a que la vida de esto​s jóvenes se transforme ​para siem​​pre ​logrando así una sociedad más equitativa.",
+        },
+        button: {
+          title: "Ver testimonios",
+          href: TESTIMONIOS,
+        },
+      },
+      cienciaTecnologia: {},
+      inspiracionInnovacion: {},
+      transformacionHumanista: {},
+    },
   },
   donateHere: {
     title: "Ayuda a volar, empieza a donar",

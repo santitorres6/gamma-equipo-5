@@ -41,7 +41,7 @@ export const PreguntasFrecuentes = (props) => {
           isOpen={isOpen}
           onClose={onClose}
           dataModal={dataModal}
-        ></ModalPreguntasFrecuentes>
+        />
       )}
     </>
   );
