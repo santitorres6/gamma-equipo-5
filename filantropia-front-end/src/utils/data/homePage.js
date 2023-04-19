@@ -230,7 +230,7 @@ export const HOME_PAGE = {
         id: 1,
         img: {
           title: "Donación en línea",
-          src: "/src/assets/images/donacion_en_linea.jpg",
+          src: "/src/assets/images/donacion_en_linea.png",
         },
         title: "Donación en línea",
         paragraphs: [
@@ -242,7 +242,7 @@ export const HOME_PAGE = {
         id: 2,
         img: {
           title: "Transferencia",
-          src: "/src/assets/images/transferencia.jpg",
+          src: "/src/assets/images/transferencia.png",
         },
         title: "Transferencia",
         paragraphs: [
@@ -253,7 +253,7 @@ export const HOME_PAGE = {
         id: 3,
         img: {
           title: "Con código QR",
-          src: "/src/assets/images/con_codigo_qr.jpg",
+          src: "/src/assets/images/con_codigo_qr.png",
         },
         title: "Con código QR",
         paragraphs: [
@@ -267,7 +267,7 @@ export const HOME_PAGE = {
         id: 4,
         img: {
           title: "Cheque o donación en especie",
-          src: "/src/assets/images/cheque_o_donacion_en_especie.jpg",
+          src: "/src/assets/images/cheque_o_donacion_en_especie .png",
         },
         title: "Cheque o donación en especie",
         paragraphs: [
@@ -279,7 +279,7 @@ export const HOME_PAGE = {
         id: 5,
         img: {
           title: "Personalmente en la Universidad EAFIT",
-          src: "/src/assets/images/personalmente_en_la_universidad_eafit.jpg",
+          src: "/src/assets/images/personalmente_en_la_universidad_eafit.png",
         },
         title: "Personalmente en la Universidad EAFIT",
         paragraphs: [
@@ -290,7 +290,7 @@ export const HOME_PAGE = {
         id: 6,
         img: {
           title: "Deducción de nómina para empleados",
-          src: "/src/assets/images/deduccion_nomina_para_empleados.jpg",
+          src: "/src/assets/images/deduccion_de_nomina_para_empleados.png",
         },
         title: "Deducción de nómina para empleados",
         paragraphs: [
@@ -302,7 +302,7 @@ export const HOME_PAGE = {
         id: 7,
         img: {
           title: "Tiempo y talento",
-          src: "/src/assets/images/tiempo_talento.jpg",
+          src: "/src/assets/images/tiempo_talento.png",
         },
         title: "Tiempo y talento",
         paragraphs: [

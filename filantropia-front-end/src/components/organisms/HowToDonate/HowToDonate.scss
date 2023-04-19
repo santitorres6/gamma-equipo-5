@@ -1,0 +1,13 @@
+.howToDonate {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  .listCards {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    align-items: center;
+    gap: 2rem;
+  }
+}
