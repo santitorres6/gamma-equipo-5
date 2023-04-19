@@ -36,7 +36,7 @@ export const Causes = (props) => {
         })}
       </ListCard>
       {!!modalCause && (
-        <ModalCard title={titleWithFormat} isOpen={isOpen} onClose={onClose}>
+        <ModalCard title={titleWithFormat} isOpen={isOpen} onClose={onClose} width="60%">
           {modalCause}
         </ModalCard>
       )}
