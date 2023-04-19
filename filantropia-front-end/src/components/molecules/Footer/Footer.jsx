@@ -8,9 +8,10 @@ export const Footer = () => {
   const { FOOTER } = useContext(DataContext);
   const { title, icons } = FOOTER;
   return (
-    <section className="footer">
+    <footer className="footer">
       <TitleSection title={title} />
       <IconsFooter icons={icons} />
-    </section>
+    </footer>
   );
 };
+  

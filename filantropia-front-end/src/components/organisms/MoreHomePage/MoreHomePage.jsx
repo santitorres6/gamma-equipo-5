@@ -26,8 +26,6 @@ export const MoreHomePage = (props) => {
         />
         <Contacto title={contacto.title} contacto={contacto} />
       </Accordion>
-
-      <div style={{ width: "30%", margin: "auto" }}></div>
     </section>
   );
 };

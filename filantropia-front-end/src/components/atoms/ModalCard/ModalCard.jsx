@@ -6,9 +6,8 @@ import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 import "./ModalCard.scss";
 
 export const ModalCard = (props) => {
-  const { children, isOpen, onClose } = props;
+  const { children, isOpen, onClose, title = "" } = props;
   const footer = { footer: <Button /> };
-  const bodyStile = {};
 
   return (
     <Modal
@@ -21,9 +20,9 @@ export const ModalCard = (props) => {
         alignItems: "center",
       }}
       closeIcon={<CloseIcon />}
-      footer={<Button title="Cerrar" handleClick={onClose} />}
+      footer={null}
       width={"40%"}
-      wrapClassName="modal"
+      wrapClassName={title}
     >
       {children}
     </Modal>
