@@ -1,13 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./VideoPlayer.scss";
 
-export const VideoPlayer = ({
-  videoId,
-  isPlaying,
-  handleEndVideo,
-  currentVideoIndex,
-}) => {
-  // let player = null;
+export const VideoPlayer = (props) => {
+  const { videoId, isPlaying = true, handleEndVideo} = props;
   const [player, setPlayer] = useState();
 
   useEffect(() => {
@@ -17,7 +12,7 @@ export const VideoPlayer = ({
         height: "100%",
         width: "100%",
         host: "https://www.youtube.com",
-        videoId,
+        videoId: videoId.slice(30),
         playerVars: {
           autoplay: 1,
           controls: 0,
@@ -35,7 +30,6 @@ export const VideoPlayer = ({
       });
 
       setPlayer(playerInstance);
-      // playerInstance.playVideo();
     } else {
       if (isPlaying) {
         player.playVideo();
@@ -48,9 +42,11 @@ export const VideoPlayer = ({
   const onPlayerStateChange = (event) => {
     // Evento cuando el estado del reproductor de video cambia [2] indica que el video ha finalizado
     if (event.data === 0) {
-      handleEndVideo();
+      !!handleEndVideo && handleEndVideo();
     }
   };
 
-  return <div id={`player-${videoId}`} className="videoPlayer"></div>;
+  return (
+    <div id={`player-${videoId}`} className="videoPlayer"></div>
+  );
 };

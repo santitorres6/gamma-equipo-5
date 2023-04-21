@@ -1,0 +1,77 @@
+@import "/src/styles";
+
+.modalInspiracion {
+  width: 100%;
+  height: 100%;
+
+  section {
+    width: 100%;
+    border: none;
+    padding: 0;
+  }
+
+  img {
+    border-radius: 0.8rem;
+    height: 25vw;
+  }
+
+  h3 {
+    width: 100%;
+    position: absolute;
+    top: 18vw;
+    color: $color-tertiary;
+    font-size: $font-size-l ;
+  }
+
+  h2 {
+    width: 90%;
+    line-height: 5rem;
+  }
+
+  p {
+    margin: 0.5rem 0;
+  }
+
+  button {
+    margin: 0 auto 2rem;
+  }
+
+  &__subtitle {
+    font-weight: $font-weight-card-title ;
+    font-size: $font-size-m;
+    margin-bottom: 2rem;
+  }
+
+  &__statistics{
+    margin-top: 2rem;
+
+    &-img{
+      width: 90%;
+    }
+
+    &-subtitle{
+      font-weight: $font-weight-card-title ;
+      font-size: $font-size-m;
+      margin: 2rem 0;
+    }
+  }
+}
+
+.modalInspiracion .listCards{
+  width: 90%;
+
+  & h3{
+    position: static;
+    color:black;
+    font-size: $font-size-m;
+  }
+
+  & p{
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  & button{
+    margin-bottom: 0;
+  }
+}

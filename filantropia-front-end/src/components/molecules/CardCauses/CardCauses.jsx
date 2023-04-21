@@ -7,11 +7,11 @@ import { Button } from "../../atoms/Button/Button";
 import "./CardCauses.scss";
 
 export const CardCauses = (props) => {
-  const { imagen, title, paragraph, button, handleClick } = props;
+  const { img, title, paragraph, button, handleClick } = props;
 
   return (
     <Card>
-      <ImageCard {...imagen} />
+      <ImageCard {...img} />
       <TitleCard title={title} />
       <ParagraphCard paragraph={paragraph} />
       <Button {...button} handleClick={handleClick} />

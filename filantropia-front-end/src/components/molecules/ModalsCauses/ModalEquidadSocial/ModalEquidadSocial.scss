@@ -4,6 +4,12 @@
   width: 100%;
   height: 100%;
 
+  section{
+    width: 100%;
+    border:none;
+    padding:0;
+  }
+
   img{
     border-radius:0.8rem;
     height: 25vw;
@@ -36,6 +42,36 @@
       display: inline-block;
       font-size: $font-size-xs;
       font-weight:$font-weight-card-title;
+    }
+  }
+
+  button{
+    margin: 0 auto 2rem;
+  }
+
+  &__subtitle {
+    font-weight: $font-weight-card-title ;
+    font-size: $font-size-m;
+    margin-bottom: 2rem;
+  }
+}
+
+.modalEquidadSocial__fondoBecas {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .card {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 2rem;
+    gap: 2rem;
+    margin: 0 0 3rem;
+
+    .imageCard{
+      width: 50%;
+      height: 11vw;
     }
   }
 }

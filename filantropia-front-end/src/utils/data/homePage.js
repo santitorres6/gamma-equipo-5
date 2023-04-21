@@ -48,7 +48,7 @@ export const HOME_PAGE = {
     cards: [
       {
         id: 1,
-        imagen: {
+        img: {
           title: "Equidad social e inclusión",
           src: "/src/assets/images/equidad_social_e_inclusion.jpg",
         },
@@ -62,7 +62,7 @@ export const HOME_PAGE = {
       },
       {
         id: 2,
-        imagen: {
+        img: {
           title: "Ciencia, tecnología e innovación",
           src: "/src/assets/images/ciencia_tecnologia_innovacion.jpg",
         },
@@ -76,7 +76,7 @@ export const HOME_PAGE = {
       },
       {
         id: 3,
-        imagen: {
+        img: {
           title: "Inspiracion - voluntariado",
           src: "/src/assets/images/inspiracion_voluntariado.jpg",
         },
@@ -90,7 +90,7 @@ export const HOME_PAGE = {
       },
       {
         id: 4,
-        imagen: {
+        img: {
           title: "Transformación humanista",
           src: "/src/assets/images/transformacion_humanista.jpg",
         },
@@ -144,9 +144,130 @@ export const HOME_PAGE = {
           href: TESTIMONIOS,
         },
       },
-      cienciaTecnologia: {},
-      inspiracionInnovacion: {},
-      transformacionHumanista: {},
+      cienciaTecnologia: {
+        title: "Ciencia, tecnología e innovación",
+        img: {
+          title: "Ciencia, tecnología e innovación",
+          src: "/src/assets/images/ciencia_tecnologia_innovacion.jpg",
+        },
+        body: {
+          title:
+            "Apalancamos​​​ proyectos de investigación ​para ​beneficio de la humanidad",
+          paragraphs: [
+            "Creamos valor social a partir de proyectos de investigación, ​​logrando de una forma eficiente resolver los problemas sociales y contribuir a la generación de conocimiento.",
+            "Uno de los propósit​​os de nuestra Institución que inspira, crea y transforma es desarrollar la capacidad intelectual de los estudiantes y profesores en todos los programas académicos con la investigación como soporte básico.",
+            "​Con tus aportes a los proyectos de investigación científica y aplicada, impulsas la producción de respuestas innovadoras que contribuyen a la solución de problemáticas ​de ​nuestra sociedad.",
+          ],
+        },
+      },
+      inspiracionInnovacion: {
+        img: {
+          title: "Inspiración - voluntariado",
+          src: "/src/assets/images/modal_inspiracion_voluntariado.jpg",
+        },
+        title: "Inspiración - voluntariado",
+        body: {
+          title: "Conectamos talento ​​para un mayor impacto​",
+          paragraphs: [
+            "​​​​​El voluntariado EAFIT es un puente de transformación social y cultural, que inspira a la comunidad eafitense y sus allegados a vincularse con iniciativas ​​​sociales, académicas, comunitarias, culturales y para la filantropía, ​permitiendo asumir responsabilidad y rol en la sociedad y/o al interior de la Universidad a través de la contribución eficaz de tiempo y conocimiento.​​​​​​​",
+          ],
+          cards: [
+            {
+              id: 1,
+              title: "¿Quiénes somos?",
+              paragraph: "Conócenos",
+              button: {
+                title: "Ver más",
+                href: "https://www.eafit.edu.co/institucional/centro-filantropia/Paginas/quienes_somos_voluntariado.aspx",
+              },
+            },
+            {
+              id: 2,
+              title: "Beneficios",
+              paragraph: "Encuéntralos aquí",
+              button: {
+                title: "Ver más",
+                href: "https://www.eafit.edu.co/institucional/centro-filantropia/Paginas/beneficios-voluntariado-EAFIT.aspx",
+              },
+            },
+            {
+              id: 3,
+              title: "Formas de voluntariado",
+              paragraph: "Conoce más",
+              button: {
+                title: "Ver más",
+                href: "https://www.eafit.edu.co/institucional/centro-filantropia/Paginas/formas-de-voluntariado.aspx",
+              },
+            },
+            {
+              id: 4,
+              title: "Políticas y reglamentos",
+              paragraph: "Conoce más",
+              button: {
+                title: "Ver más",
+                href: "https://www.eafit.edu.co/institucional/centro-filantropia/Documents/pol%C3%ADtica-de-voluntariado.pdf",
+              },
+            },
+          ],
+          subtitle: "¡Haz parte del voluntariado!",
+          button: {
+            title: "Incríbete aquí",
+            href: "https://forms.office.com/pages/responsepage.aspx?id=XrX3mb6ce0aBQ5GXgpGK-x0jvEkZ8mJKr-W85ajA-YVUNTZBSVcwVTIyRjlJWVMxRU83NkFLSU5SQy4u",
+          },
+        },
+        statistics: {
+          img: {
+            title: "Impacto del voluntariado 2022",
+            src: "/src/assets/images/estadisticas_voluntariado.jpg",
+          },
+          subtitle: "Conoce el repositorio de conocimientos",
+          button: {
+            title: "Haz click aquí",
+            href: "https://www.eafit.edu.co/institucional/centro-filantropia/Paginas/repositorio-conocimiento.aspx",
+          },
+        },
+      },
+      transformacionHumanista: {
+        img: {
+          title: "",
+          src: "/src/assets/images/modal_transformacion_humanista.png",
+        },
+        title: "Tranformación humanista",
+        body: {
+          title: "Un proyect​o h​u​manista​​ y científico para todos",
+          paragraphs: [
+            "EAFIT es una Universidad que a lo largo de su historia ha promovido el desarrollo del arte, el deporte y la cultura como pa​​​rte fundamental de la institución, adicionalmente en más de medio siglo de existencia, la Universidad se ha preocupado por ofrecer la mejor infraestructura para el desarrollo de las actividades universitarias, en un ambiente que favorece el bienestar de sus estudiantes, empleados, docentes y visitantes. La formación no se da solo en las aulas, también en diferentes espacios deportivos, artísticos y culturales. Con tus aportes a esta causa contribuyes a la creación de un ambiente que favorece el aprendizaje integral de su comunidad.​",
+          ],
+        },
+        fondos: {
+          title: "Conoce los fondos a los que puedes aportar",
+          cards: [
+            {
+              id: 1,
+              img: {
+                title: "Cultura",
+                src: "/src/assets/images/card_cultura.png",
+              },
+              title: "Cultura",
+              paragraph:
+                "Apoyamos ​actividades culturales y artístic​as de la Universidad, tales como obras de literatura, arte, películas, documentales, música, entre otras. Además, con esta inicia​​tiva se contribuye al fortalecimiento del acervo documental de la Universidad.​​",
+            },
+            {
+              id: 2,
+              img: {
+                title: "De´prte",
+                src: "/src/assets/images/card_deporte.png",
+              },
+              title: "Deporte",
+              paragraph:
+                "Foment​amos el deporte y contrib​uimos al desarrollo integral de los deportistas de EAFIT en diferentes competencias y eventos a nivel representativo de la Institución.​",
+            },
+          ],
+          paragraphs: [
+            "Gracias a tus aportes a nuest​​ro​ fondo de becas, lograre​mos qu​​e muchos ​m​ás estudiantes puedan acceder a una ins​​​titución de alta calidad ​que ayud​​ará a que la vida de esto​s jóvenes se transforme ​para siem​​pre ​logrando así una sociedad más equitativa.",
+          ],
+        },
+      },
     },
   },
   donateHere: {

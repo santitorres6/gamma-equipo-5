@@ -8,7 +8,6 @@ import { Initiatives } from "../../components/organisms/Initiatives/Initiatives"
 import { HowToDonate } from "../../components/organisms/HowToDonate/HowToDonate";
 import "./Home.scss";
 
-
 export const Home = () => {
   const { HOME_PAGE } = useContext(DataContext);
   const { carrousel, more, ourCauses, initiatives, howToDonate } = HOME_PAGE;
@@ -16,15 +15,18 @@ export const Home = () => {
 
   return (
     <motion.main
+      className="homePage"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
+    <main>
       <VideosCarousel videos={videos} button={button} />
       <Causes causes={ourCauses} />
       <Initiatives initiatives={initiatives} />
-      <HowToDonate  howToDonate ={howToDonate}/>
+      <HowToDonate howToDonate={howToDonate} />
       <MoreHomePage {...more} />
+    </main>
     </motion.main>
   );
-};
+};  

@@ -26,7 +26,7 @@ export const Causes = (props) => {
   };
 
   return (
-    <section className="ourCauses">
+    <section className="ourCauses" id="causas">
       <TitleSection title={causes.title} />
       <ListCard name={causes.title}>
         {cards.map((card) => {
@@ -36,7 +36,12 @@ export const Causes = (props) => {
         })}
       </ListCard>
       {!!modalCause && (
-        <ModalCard title={titleWithFormat} isOpen={isOpen} onClose={onClose} width="60%">
+        <ModalCard
+          title={titleWithFormat}
+          isOpen={isOpen}
+          onClose={onClose}
+          width="60%"
+        >
           {modalCause}
         </ModalCard>
       )}
