@@ -2,13 +2,15 @@ import React, { useState } from "react";
 import { TitleSection } from "../../atoms/TitleSection/TitleSection";
 import { ListCard } from "../../molecules/ListCard/ListCard";
 import { CardCauses } from "../../molecules/CardCauses/CardCauses";
+import {DonateHere} from "../../molecules/DonateHere/DonateHere";
 import "./Causes.scss";
 import { useModalCauses } from "../../../utils/hooks/useModalCauses";
 import { ModalCard } from "../../atoms/ModalCard/ModalCard";
 
+
 export const Causes = (props) => {
   const { causes } = props;
-  const { cards } = causes;
+  const { cards,donateHere } = causes;
   const { modalCause, handleModalCause } = useModalCauses();
   const [isOpen, setIsOpen] = useState(false);
 
@@ -40,6 +42,7 @@ export const Causes = (props) => {
           {modalCause}
         </ModalCard>
       )}
+      <DonateHere {...donateHere}/>
     </section>
   );
 };

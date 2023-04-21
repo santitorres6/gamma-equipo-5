@@ -148,14 +148,15 @@ export const HOME_PAGE = {
       inspiracionInnovacion: {},
       transformacionHumanista: {},
     },
-  },
-  donateHere: {
-    title: "Ayuda a volar, empieza a donar",
-    button: {
-      title: "Dona aquí",
-      href: DONACIONES,
+    donateHere: {
+      title: "Ayuda a volar, empieza a donar",
+      button: {
+        title: "Dona aquí",
+        href: DONACIONES,
+      },
     },
   },
+  
   initiatives: {
     title: "Iniciativas",
     cards: [

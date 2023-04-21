@@ -11,7 +11,7 @@ import "./Home.scss";
 
 export const Home = () => {
   const { HOME_PAGE } = useContext(DataContext);
-  const { carrousel, more, ourCauses, initiatives, howToDonate } = HOME_PAGE;
+  const { carrousel, more, ourCauses, initiatives, howToDonate, donateHere } = HOME_PAGE;
   const { videos, button } = carrousel;
 
   return (
