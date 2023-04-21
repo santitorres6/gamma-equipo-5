@@ -28,7 +28,7 @@ const SectionPrimary = (props) => {
   const { title, paragraphs, cards, subtitle, button } = props;
   const handleClick = () => {};
   return (
-    <section>
+    <section className="modalInspiracion__section-primary">
       <TitleSection title={title} />
       {paragraphs.map((paragraph, index) => (
         <ParagraphCard key={index} paragraph={paragraph} />

@@ -1,0 +1,9 @@
+.iniciatives{
+  width: 100%;
+
+  .listCards{
+    width: 90%;
+    // background-color: blue;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

@@ -47,6 +47,11 @@
 
   button{
     margin: 0 auto 2rem;
+    background-color: $color-background-secondary;
+
+    &:hover{
+      background-color: $color-background-secondary-hover;
+    }
   }
 
   &__subtitle {

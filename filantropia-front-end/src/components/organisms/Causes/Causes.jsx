@@ -3,9 +3,9 @@ import { TitleSection } from "../../atoms/TitleSection/TitleSection";
 import { ListCard } from "../../molecules/ListCard/ListCard";
 import { CardCauses } from "../../molecules/CardCauses/CardCauses";
 import {DonateHere} from "../../molecules/DonateHere/DonateHere";
-import "./Causes.scss";
 import { useModalCauses } from "../../../utils/hooks/useModalCauses";
 import { ModalCard } from "../../atoms/ModalCard/ModalCard";
+import "./Causes.scss";
 
 
 export const Causes = (props) => {

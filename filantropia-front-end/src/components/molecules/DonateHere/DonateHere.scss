@@ -1,6 +1,17 @@
+@import "/src/styles";
+
 .donateHere {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 2rem 0 0;
+  border: none;
+
+  button{
+    background-color:$color-background-secondary;
+    &:hover{
+      background-color: $color-background-secondary-hover;
+    }
+  }
 }

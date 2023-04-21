@@ -75,3 +75,13 @@
     margin-bottom: 0;
   }
 }
+
+.modalInspiracion__section-primary, .modalInspiracion__statistics{
+  button{
+    background-color: $color-background-secondary;
+
+    &:hover{
+      background-color: $color-background-secondary-hover;
+    }
+  }
+}

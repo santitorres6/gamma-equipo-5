@@ -1,8 +1,8 @@
 import React from "react";
 import { ListCard } from "../../molecules/ListCard/ListCard";
 import { CardInitiatives } from "../../molecules/CardInitiatives/CardInitiatives";
-import "./initiatives.scss";
 import { TitleSection } from "../../atoms/TitleSection/TitleSection";
+import "./initiatives.scss";
 
 export const Initiatives = (props) => {
   const { initiatives } = props;
