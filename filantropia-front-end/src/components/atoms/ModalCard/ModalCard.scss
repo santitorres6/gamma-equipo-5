@@ -1,13 +1,10 @@
 @import "/src/styles";
 
-// .ant-modal-root .ant-modal-wrap{
-//   margin: 3rem 0 0;
-//   border-radius: 5px;
-//   border:1px solid blue;
-// }
+.ant-modal-root .ant-modal-wrap{
+  padding: 2rem 0;
+}
 
 .modal{
-
   &__icon{
     color:$color-background-secondary;
     width:3rem;

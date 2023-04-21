@@ -4,3 +4,14 @@ body{
   font-family: $font-family-primary;
   font-size: $font-size-s;
 }
+
+section{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5rem 0;
+  border-top: $border-division-section;
+  border-bottom: $border-division-section ;
+}

@@ -1,3 +1,13 @@
 .Nuestrascausas .ant-modal-content{
   padding:0
 }
+
+.ourCauses{
+  width: 100%;
+
+  .listCards {
+    // background-color: blue;
+    width: 80%;
+    grid-template-columns: repeat(2,1fr);
+   }
+}

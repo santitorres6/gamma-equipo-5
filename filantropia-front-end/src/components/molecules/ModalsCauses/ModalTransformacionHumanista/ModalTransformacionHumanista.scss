@@ -1,0 +1,85 @@
+@import "/src/styles";
+
+.modalTransformacion {
+  width: 100%;
+  height: 100%;
+
+  section {
+    width: 100%;
+    border: none;
+    padding: 0;
+  }
+
+  img {
+    border-radius: 0.8rem 0.8rem 0 0;
+    height: 25vw;
+  }
+
+  h3 {
+    width: 100%;
+    position: absolute;
+    top: 18vw;
+    color: $color-tertiary;
+    font-size: $font-size-l ;
+  }
+
+  h2 {
+    width: 90%;
+  }
+
+  p {
+    margin: 0.5rem 0;
+  }
+
+  button {
+    margin: 0 auto 2rem;
+  }
+
+}
+
+.modalTransformacion__section-secondary {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .listCards {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+
+    h3{
+      position: static;
+      color:$color-background-primary;
+      margin:0;
+    }
+
+    p{
+      font-size: $font-size-s;
+      width: 95%;
+      margin: 0;
+    }
+  }
+
+  .card {
+    flex-direction: row;
+    padding-bottom: 0;
+    gap: 1rem;
+    margin: 0 0 2rem;
+
+    .imageCard {
+      width: 45%;
+      height: 15vw;
+      border-radius: 0;
+    }
+
+    .wrapper{
+      height: 100%;
+    }
+  }
+  p{
+    padding-bottom: 2rem;
+  }
+}

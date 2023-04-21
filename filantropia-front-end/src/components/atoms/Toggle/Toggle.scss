@@ -1,0 +1,35 @@
+@import "/src/styles";
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $color-secondary;
+  border-radius: 10px;
+  width: 312px;
+  height: 62px;
+  gap: 1%;
+}
+
+.toggleLeft {
+  scale: 0.5;
+  position: absolute;
+  left: -78.5px;
+  bottom: -31.5px;
+}
+
+.toggleLeft path, .toggleRight path{
+  fill:$color-background-primary;
+}
+
+.toggleRight {
+  scale: 0.5;
+  position: absolute;
+  right: -78.5px;
+  bottom: -31.5px;
+}
+
+.toggleRight .isActive {
+  display: none;
+}

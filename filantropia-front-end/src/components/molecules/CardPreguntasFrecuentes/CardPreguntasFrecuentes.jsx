@@ -10,7 +10,7 @@ export const CardPreguntasFrecuentes = (props) => {
   return (
     <Card>
       <TitleCard title={title} />
-      <ParagraphCard paragraph={paragraph} />
+      {/* <ParagraphCard paragraph={paragraph} /> */}
       <Button
         title={button?.title}
         handleClick={() => handleClick(button.href)}

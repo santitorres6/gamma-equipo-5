@@ -3,10 +3,12 @@
   flex-direction: column;
   width: 100%;
   align-items: center;
+
   .listCards {
+    width: 85%;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
-    width: 85%;
     align-items: center;
     gap: 2rem;
   }

@@ -9,24 +9,26 @@ import { HowToDonate } from "../../components/organisms/HowToDonate/HowToDonate"
 import { WhatIsFilantropia } from "../../components/organisms/WhatIsFilantropia/WhatIsFilantropia";
 import "./Home.scss";
 
-
 export const Home = () => {
   const { HOME_PAGE } = useContext(DataContext);
-  const { carrousel, more, ourCauses, initiatives, howToDonate, whatIsFilantropia} = HOME_PAGE;
+  const { carrousel, more, ourCauses, initiatives, howToDonate } = HOME_PAGE;
   const { videos, button } = carrousel;
 
   return (
     <motion.main
+      className="homePage"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
+    <main>
       <VideosCarousel videos={videos} button={button} />
       <WhatIsFilantropia whatIsFilantropia={whatIsFilantropia}/>
       <Causes causes={ourCauses} />
       <Initiatives initiatives={initiatives} />
-      <HowToDonate  howToDonate ={howToDonate}/>
+      <HowToDonate howToDonate={howToDonate} />
       <MoreHomePage {...more} />
+    </main>
     </motion.main>
   );
-};
+};  

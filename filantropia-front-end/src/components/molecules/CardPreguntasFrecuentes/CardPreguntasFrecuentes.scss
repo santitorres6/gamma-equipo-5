@@ -3,3 +3,14 @@
 div.Preguntasfrecuentes button {
   background-color: $color-background-primary;
 }
+
+.Preguntasfrecuentes {
+
+  .card{
+    justify-content: space-evenly;
+  }
+  h3{
+  font-size: $font-size-s;
+  }
+
+}

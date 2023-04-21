@@ -2,13 +2,15 @@ import React, { useState } from "react";
 import { TitleSection } from "../../atoms/TitleSection/TitleSection";
 import { ListCard } from "../../molecules/ListCard/ListCard";
 import { CardCauses } from "../../molecules/CardCauses/CardCauses";
-import "./Causes.scss";
+import {DonateHere} from "../../molecules/DonateHere/DonateHere";
 import { useModalCauses } from "../../../utils/hooks/useModalCauses";
 import { ModalCard } from "../../atoms/ModalCard/ModalCard";
+import "./Causes.scss";
+
 
 export const Causes = (props) => {
   const { causes } = props;
-  const { cards } = causes;
+  const { cards,donateHere } = causes;
   const { modalCause, handleModalCause } = useModalCauses();
   const [isOpen, setIsOpen] = useState(false);
 
@@ -26,7 +28,7 @@ export const Causes = (props) => {
   };
 
   return (
-    <section className="ourCauses">
+    <section className="ourCauses" id="causas">
       <TitleSection title={causes.title} />
       <ListCard name={causes.title}>
         {cards.map((card) => {
@@ -36,10 +38,16 @@ export const Causes = (props) => {
         })}
       </ListCard>
       {!!modalCause && (
-        <ModalCard title={titleWithFormat} isOpen={isOpen} onClose={onClose} width="60%">
+        <ModalCard
+          title={titleWithFormat}
+          isOpen={isOpen}
+          onClose={onClose}
+          width="60%"
+        >
           {modalCause}
         </ModalCard>
       )}
+      <DonateHere {...donateHere}/>
     </section>
   );
 };

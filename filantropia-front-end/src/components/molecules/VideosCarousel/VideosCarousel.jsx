@@ -1,9 +1,10 @@
 import React, { useRef, useState } from "react";
+import { motion } from "framer-motion";
 import { Carousel } from "../../atoms/Carousel/Carousel";
 import { VideoPlayer } from "../../atoms/VideoPlayer/VideoPlayer";
 import { useNavigate } from "react-router-dom";
-import "./VideosCarousel.scss";
 import { Button } from "../../atoms/Button/Button";
+import "./VideosCarousel.scss";
 
 const INITIAL_SLIDE = 0;
 
@@ -25,7 +26,11 @@ export const VideosCarousel = ({ videos, button }) => {
   };
 
   return (
-    <section className="carouselVideos">
+    <motion.section
+      className="carouselVideos"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+    >
       <Carousel
         autoplay={false}
         sliderRef={sliderRef}
@@ -36,7 +41,7 @@ export const VideosCarousel = ({ videos, button }) => {
           return (
             <VideoPlayer
               key={video.id}
-              videoId={video.src.slice(30)}
+              videoId={video.src}
               handleEndVideo={handleEndVideo}
               isPlaying={index === currentVideoIndex}
               currentVideoIndex={currentVideoIndex}
@@ -48,6 +53,6 @@ export const VideosCarousel = ({ videos, button }) => {
         title={button.title}
         handleClick={() => handleClick(button.href)}
       />
-    </section>
+    </motion.section>
   );
 };

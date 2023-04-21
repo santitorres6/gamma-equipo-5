@@ -10,8 +10,8 @@ import { Button } from "../../../atoms/Button/Button";
 import "./ModalEquidadSocial.scss";
 
 export const ModalEquidadSocial = () => {
-  const { HOME_PAGE } = useContext(DataContext);
   const navigate = useNavigate();
+  const { HOME_PAGE } = useContext(DataContext);
   const { ourCauses } = HOME_PAGE;
   const { equidadSocial } = ourCauses.modals;
   const { img, title, body, fondoBecas, button } = equidadSocial;

@@ -8,7 +8,7 @@ export const HowToDonate = (props) => {
   const {howToDonate} = props;
   const { cards } = howToDonate;
   return (
-    <section className='howToDonate'>
+    <section className='howToDonate' id="como_donar">
         <TitleSection title =  {howToDonate.title} />
         <ListCard name = {howToDonate.title} >
         {cards. map((card) => {
