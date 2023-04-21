@@ -6,12 +6,13 @@ import { MoreHomePage } from "../../components/organisms/MoreHomePage/MoreHomePa
 import { Causes } from "../../components/organisms/Causes/Causes";
 import { Initiatives } from "../../components/organisms/Initiatives/Initiatives";
 import { HowToDonate } from "../../components/organisms/HowToDonate/HowToDonate";
+import { WhatIsFilantropia } from "../../components/organisms/WhatIsFilantropia/WhatIsFilantropia";
 import "./Home.scss";
 
 
 export const Home = () => {
   const { HOME_PAGE } = useContext(DataContext);
-  const { carrousel, more, ourCauses, initiatives, howToDonate } = HOME_PAGE;
+  const { carrousel, more, ourCauses, initiatives, howToDonate, whatIsFilantropia} = HOME_PAGE;
   const { videos, button } = carrousel;
 
   return (
@@ -21,6 +22,7 @@ export const Home = () => {
       exit={{ opacity: 0 }}
     >
       <VideosCarousel videos={videos} button={button} />
+      <WhatIsFilantropia whatIsFilantropia={whatIsFilantropia}/>
       <Causes causes={ourCauses} />
       <Initiatives initiatives={initiatives} />
       <HowToDonate  howToDonate ={howToDonate}/>
